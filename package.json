@@ -3,7 +3,12 @@
     "displayName": "AtherysCode",
     "description": "Snippets for A'therys scripting.",
     "version": "0.0.1",
-    "publisher": "Atherys-Horizons",
+    "publisher": "AtherysHorizons",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Atherys-Horizons/AtherysCode"
+	},
+	"license": "SEE LICENSE IN LICENSE",
     "engines": {
         "vscode": "^1.25.0"
     },
