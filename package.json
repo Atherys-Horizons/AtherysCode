@@ -4,6 +4,7 @@
     "description": "Snippets for A'therys scripting.",
     "version": "0.0.1",
     "publisher": "AtherysHorizons",
+	"icon": "AtherysScript.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Atherys-Horizons/AtherysCode"
