@@ -3,7 +3,7 @@
     "displayName": "AtherysCode",
     "description": "Snippets for A'therys scripting.",
     "version": "0.0.1",
-    "publisher": "Atherys",
+    "publisher": "Atherys-Horizons",
     "engines": {
         "vscode": "^1.25.0"
     },
