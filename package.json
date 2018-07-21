@@ -4,6 +4,11 @@
     "description": "Snippets for A'therys scripting.",
     "version": "0.0.1",
     "publisher": "Atherys-Horizons",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Atherys-Horizons/AtherysCode"
+	},
+	"license": "SEE LICENSE IN LICENSE",
     "engines": {
         "vscode": "^1.25.0"
     },
