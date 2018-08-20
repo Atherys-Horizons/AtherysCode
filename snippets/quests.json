@@ -1,0 +1,243 @@
+//Atherys Snippets for VS Code
+{
+	"EventHandlerFunction<>DialogRegistrationEvent.class": {
+    "prefix": "onDialogRegistration",
+    "body": [
+     "(function() {",
+     "$0",
+     "}"
+    ],
+    "description": " "
+	},
+	"EventHandlerFunction<>DialogStartEvent.class": {
+    "prefix": "onDialogStart",
+    "body": [
+     "(function() {",
+     "$0",
+     "}"
+    ],
+    "description": " "
+	},
+	"EventHandlerFunction<>DialogProceedEvent.class": {
+    "prefix": "onDialogProgress",
+    "body": [
+     "(function() {",
+     "$0",
+     "}"
+    ],
+    "description": " "
+	},
+	"EventHandlerFunction<>DialogEndEvent.class": {
+    "prefix": "onDialogComplete",
+    "body": [
+     "(function() {",
+     "$0",
+     "}"
+    ],
+    "description": " "
+	},
+	"EventHandlerFunction<>QuestRegistrationEvent.class": {
+    "prefix": "onQuestRegistration",
+    "body": [
+     "(function() {",
+     "$0",
+     "}"
+    ],
+    "description": " "
+	},
+	"EventHandlerFunction<>QuestStartedEvent.class": {
+    "prefix": "onQuestStart",
+    "body": [
+     "(function() {",
+     "$0",
+     "}"
+    ],
+    "description": " "
+	},
+	"EventHandlerFunction<>SimpleQuestProgressEvent.class": {
+    "prefix": "onSimpleQuestProgress",
+    "body": [
+     "(function() {",
+     "$0",
+     "}"
+    ],
+    "description": " "
+	},
+	"EventHandlerFunction<>StagedQuestProgressEvent.class": {
+    "prefix": "onStagedQuestProgress",
+    "body": [
+     "(function() {",
+     "$0",
+     "}"
+    ],
+    "description": " "
+	},
+	"EventHandlerFunction<>QuestCompletedEvent.class": {
+    "prefix": "onQuestComplete",
+    "body": [
+     "(function() {",
+     "$0",
+     "}"
+    ],
+    "description": " "
+	},
+	"EventHandlerFunction<>QuestTurnedInEvent.class": {
+    "prefix": "onQuestTurnIn",
+    "body": [
+     "(function() {",
+     "$0",
+     "}"
+    ],
+    "description": " "
+	},
+	"CreateDialogNode": {
+    "prefix": "dialogNode",
+    "body": "dialogNode(${1:id}, ${2:requirements}, ${3:player}, ${4:npc}, ${5:quest}, ${6:responses})",
+    "description": " "
+	},
+	"CreateDialogTree": {
+    "prefix": "dialogTree",
+    "body": "dialogTree(${1:id}, ${2:root})",
+    "description": " "
+	},
+	"CreateSimpleQuest": {
+    "prefix": "createSimpleQuest",
+    "body": "createSimpleQuest(${1:id}, ${2:name}, ${3:description}, ${4:version})",
+    "description": " "
+	},
+	"CreateStagedQuest": {
+    "prefix": "createStagedQuest",
+    "body": "createStagedQuest(${1:id}, ${2:name}, ${3:description}, ${4:version})",
+    "description": " "
+	},
+	"GetQuestById": {
+    "prefix": "getQuestById",
+    "body": "getQuestById(${1:questId})",
+    "description": " "
+	},
+	"AddQuestObjective": {
+    "prefix": "addQuestObjective",
+    "body": "addQuestObjective(${1:simpleQuest}, ${2:objective})",
+    "description": " "
+	},
+	"AddQuestReward": {
+    "prefix": "addQuestReward",
+    "body": "addQuestReward(${1:quest}, ${2:reward})",
+    "description": " "
+	},
+	"AddQuestStages": {
+    "prefix": "addQuestStages",
+    "body": "addQuestStages(${1:stagedQuest}, ${2:stages})",
+    "description": " "
+	},
+	"AddQuestObjectives": {
+    "prefix": "addQuestObjectives",
+    "body": "addQuestObjectives(${1:simpleQuest}, ${2:objectives})",
+    "description": " "
+	},
+	"AddQuestRequirements": {
+    "prefix": "addQuestRequirements",
+    "body": "addQuestRequirements(${1:quest}, ${2:requirements})",
+    "description": " "
+	},
+	"AddQuestRewards": {
+    "prefix": "addQuestRewards",
+    "body": "addQuestRewards(${1:quest}, ${2:rewards})",
+    "description": " "
+	},
+	"GetQuestStages": {
+    "prefix": "getQuestStages",
+    "body": "getQuestStages()",
+    "description": " "
+	},
+	"GetQuestObjectives": {
+    "prefix": "getQuestObjectives",
+    "body": "getQuestObjectives()",
+    "description": " "
+	},
+	"GetQuestRequirements": {
+    "prefix": "getQuestRequirements",
+    "body": "getQuestRequirements()",
+    "description": " "
+	},
+	"GetQuestRewards": {
+    "prefix": "getQuestRewards",
+    "body": "getQuestRewards()",
+    "description": " "
+	},
+	"DialogObjectiveFunc": {
+    "prefix": "dialogObjective",
+    "body": "dialogObjective(${1:treeId}, ${2:dialogNode}, ${3:description})",
+    "description": " "
+	},
+	"InteractWithBlockFunc": {
+    "prefix": "interactWithBlockObjective",
+    "body": "interactWithBlockObjective(${1:blockState}, ${2:location})",
+    "description": " "
+	},
+	"KillEntityObjectiveFunc": {
+    "prefix": "killEntityObjective",
+    "body": "killEntityObjective(${1:entityName}, ${2:amount})",
+    "description": " "
+	},
+	"ReachLocationObjectiveFunc": {
+    "prefix": "reachLocationObjective",
+    "body": "reachLocationObjective(${1:location}, ${2:name}, ${3:radius})",
+    "description": " "
+	},
+	"AndRequirementFunc": {
+    "prefix": "andRequirement",
+    "body": "andRequirement(${1:requirement}, ${2:requirement})",
+    "description": " "
+	},
+	"OrRequirementFunc": {
+    "prefix": "orRequirement",
+    "body": "orRequirement(${1:requirement}, ${2:requirement})",
+    "description": " "
+	},
+	"NotRequirementFunc": {
+    "prefix": "notRequirement",
+    "body": "notRequirement(${1:requirement})",
+    "description": " "
+	},
+	"QuestRequirementFunc": {
+    "prefix": "questRequirement",
+    "body": "questRequirement(${1:questId})",
+    "description": " "
+	},
+	"MoneyRequirementFunc": {
+    "prefix": "moneyRequirement",
+    "body": "moneyRequirement(${1:amount}, ${2:currency})",
+    "description": " "
+	},
+	"LevelRequirementFunc": {
+    "prefix": "levelRequirement",
+    "body": "levelRequirement(${1:level})",
+    "description": " "
+	},
+	"MoneyRequirementFunc": {
+    "prefix": "moneyReward",
+    "body": "moneyReward(${1:amount}, ${2:currency})",
+    "description": " "
+	},
+	"SingleItemRewardFunc": {
+    "prefix": "singleItemReward",
+    "body": "singleItemReward(${1:itemStack})",
+    "description": " "
+	},
+	"RegisterQuest": {
+    "prefix": "registerQuest",
+    "body": "registerQuest(${1:quest})",
+    "description": " "
+	},
+	"RegisterDialogTree": {
+    "prefix": "registerDialogTree",
+    "body": "registerDialogTree(${1:dialogTree})",
+    "description": " "
+	},
+	"TextOf": {
+    "prefix": "textOf",
+    "body": "textOf(${1:serializedText})",
+    "description": " "
+	},
+}

@@ -20,7 +20,11 @@
 		"snippets": [
 			{
 				"language": "javascript",
-				"path": "./snippets/atherys.json"
+				"path": "./snippets/script.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/quests.json"
 			}
 		]
 	},
