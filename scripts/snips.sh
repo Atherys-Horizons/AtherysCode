@@ -9,8 +9,7 @@ n=${#sp}
 
 # Open file for writing
 json="$2"
-echo "//Atherys Snippets for VS Code" > "$json"
-echo "{" >> "$json"
+echo "{" > "$json"
 
 while read -r line ; do
 	# Trim grep result down to just the name of the function and the class name 
@@ -54,7 +53,7 @@ while read -r line ; do
 	printf "	\"$name\": {\n" >> "$json"
 	printf "    \"prefix\": \"$jsName\",\n" >> "$json"
 	if [[ $isEvent = 1 ]]; then
-		printf "%s\n" "    \"body\": [" "     \"(function() {\"," "     \"\$0\"," "     \"}\"" "    ]," >> "$json"
+			printf "%s\n" "    \"body\": [" "     \"$jsName(function() {\"," "     \"\$0\"," "     \"})\"" "    ]," >> "$json"
 	else   
 		printf "    \"body\": \"$jsName$params\",\n" >> "$json"
 	fi

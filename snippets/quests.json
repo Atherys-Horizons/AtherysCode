@@ -1,92 +1,91 @@
-//Atherys Snippets for VS Code
 {
 	"EventHandlerFunction<>DialogRegistrationEvent.class": {
     "prefix": "onDialogRegistration",
     "body": [
-     "(function() {",
+     "onDialogRegistration(function() {",
      "$0",
-     "}"
+     "})"
     ],
     "description": " "
 	},
 	"EventHandlerFunction<>DialogStartEvent.class": {
     "prefix": "onDialogStart",
     "body": [
-     "(function() {",
+     "onDialogStart(function() {",
      "$0",
-     "}"
+     "})"
     ],
     "description": " "
 	},
 	"EventHandlerFunction<>DialogProceedEvent.class": {
     "prefix": "onDialogProgress",
     "body": [
-     "(function() {",
+     "onDialogProgress(function() {",
      "$0",
-     "}"
+     "})"
     ],
     "description": " "
 	},
 	"EventHandlerFunction<>DialogEndEvent.class": {
     "prefix": "onDialogComplete",
     "body": [
-     "(function() {",
+     "onDialogComplete(function() {",
      "$0",
-     "}"
+     "})"
     ],
     "description": " "
 	},
 	"EventHandlerFunction<>QuestRegistrationEvent.class": {
     "prefix": "onQuestRegistration",
     "body": [
-     "(function() {",
+     "onQuestRegistration(function() {",
      "$0",
-     "}"
+     "})"
     ],
     "description": " "
 	},
 	"EventHandlerFunction<>QuestStartedEvent.class": {
     "prefix": "onQuestStart",
     "body": [
-     "(function() {",
+     "onQuestStart(function() {",
      "$0",
-     "}"
+     "})"
     ],
     "description": " "
 	},
 	"EventHandlerFunction<>SimpleQuestProgressEvent.class": {
     "prefix": "onSimpleQuestProgress",
     "body": [
-     "(function() {",
+     "onSimpleQuestProgress(function() {",
      "$0",
-     "}"
+     "})"
     ],
     "description": " "
 	},
 	"EventHandlerFunction<>StagedQuestProgressEvent.class": {
     "prefix": "onStagedQuestProgress",
     "body": [
-     "(function() {",
+     "onStagedQuestProgress(function() {",
      "$0",
-     "}"
+     "})"
     ],
     "description": " "
 	},
 	"EventHandlerFunction<>QuestCompletedEvent.class": {
     "prefix": "onQuestComplete",
     "body": [
-     "(function() {",
+     "onQuestComplete(function() {",
      "$0",
-     "}"
+     "})"
     ],
     "description": " "
 	},
 	"EventHandlerFunction<>QuestTurnedInEvent.class": {
     "prefix": "onQuestTurnIn",
     "body": [
-     "(function() {",
+     "onQuestTurnIn(function() {",
      "$0",
-     "}"
+     "})"
     ],
     "description": " "
 	},
@@ -215,7 +214,7 @@
     "body": "levelRequirement(${1:level})",
     "description": " "
 	},
-	"MoneyRequirementFunc": {
+	"MoneyRewardFunc": {
     "prefix": "moneyReward",
     "body": "moneyReward(${1:amount}, ${2:currency})",
     "description": " "
@@ -239,5 +238,5 @@
     "prefix": "textOf",
     "body": "textOf(${1:serializedText})",
     "description": " "
-	},
+	}
 }
