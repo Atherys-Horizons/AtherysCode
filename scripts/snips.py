@@ -2,10 +2,23 @@ import re
 import sys
 import os
 import json
-import argparse
+import argparse 
 
-def oldExists(functionName, jsonDict):
-    if 
+def findFunctions(fileContent):
+    return re.findall("library.put.*$", contents, re.MULTILINE)
+
+def getName(line):
+    return re.search('"(.*)"', item).group(1)
+
+def getJavaFile(line):
+    javaResult = re.search(r'new (.*)(\<|\()', item)
+    javaFile = javaResult.group(1).replace('<>', '') + '.java'
+    return javaFile
+
+def getParameters(javaContents):
+    methodSig = re.search('(apply|get|accept|test).*$', javaContents, re.MULTILINE).group(0)
+    parameters = methodSig[methodSig.find("(")+1:methodSig.find(")")]
+    return parameters.split(',')
 
 parser = argparse.ArgumentParser()
 parser.add_argument("dir", help="the project's source directory", type=str)
@@ -35,17 +48,15 @@ for root, dirs, files in os.walk(args.dir):
             contents = f.read()
         items = re.findall("library.put.*$", contents, re.MULTILINE)
         for item in items:
-            functionName = re.search('"(.*)"', item).group(1)
-            javaResult = re.search(r'new (.*)(\<|\()', item)
-            javaFile = javaResult.group(1).replace('<>', '') + '.java'
-            javaFunctions[javaFile] = functionName
+            functionName = getName(item)
+            if args.old and functionName in oldSnippets:
+                continue
+            javaFunctions[getJavaFile(item)] = functionName
 
 for root, dirs, files in os.walk(args.dir):
     for name in files:
         if name in javaFunctions:
-            with open((os.path.join(root, name))) as f:
+            with open((os.path.join(root, name))) as javaFile:
                 contents = f.read()
-            methodSig = re.search('(apply|get|accept|test).*$', contents, re.MULTILINE).group(0)
-            parameters = methodSig[methodSig.find("(")+1:methodSig.find(")")]
-            jsFunctions[javaFunctions[name]] = parameters.split(',')
+            jsFunctions[javaFunctions[name]] = getParameters(contents)
 
