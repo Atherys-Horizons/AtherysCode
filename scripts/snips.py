@@ -1,62 +1,82 @@
 import re
-import sys
 import os
+import sys
+import util
 import json
 import argparse 
 
-def findFunctions(fileContent):
-    return re.findall("library.put.*$", contents, re.MULTILINE)
-
-def getName(line):
-    return re.search('"(.*)"', item).group(1)
-
-def getJavaFile(line):
-    javaResult = re.search(r'new (.*)(\<|\()', item)
-    javaFile = javaResult.group(1).replace('<>', '') + '.java'
-    return javaFile
-
-def getParameters(javaContents):
-    methodSig = re.search('(apply|get|accept|test).*$', javaContents, re.MULTILINE).group(0)
-    parameters = methodSig[methodSig.find("(")+1:methodSig.find(")")]
-    return parameters.split(',')
-
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser(description='''Tool for generating VS Code snippets and markdown documentation for AtherysScript. 
+                                              By default will generate the json information for every function from the given directory.''')
 parser.add_argument("dir", help="the project's source directory", type=str)
 parser.add_argument("output", help="the name of the json output file", type=str)
-parser.add_argument("--old", help="previous version of the snippets, to preserve", type=str)
+parser.add_argument("-o", "--old", help="previous version of the snippets, to preserve", type=str)
+parser.add_argument("-s", "--snips", help="Generate VS Code snippets", action='store_true')
+parser.add_argument("-d", "--docs", help="Generate documentation", action='store_true')
+
 args = parser.parse_args()
 
 javaFunctions = dict()
 jsFunctions = dict()
 
-if args.old:
+if args.old and args.snips:
     try:
         oldFile = open(args.old)
     except IOError:
         print('File not found:', args.old)
         quit()
+
     try:
-        oldSnippets = json.loads(oldFile.read())
+        snippets = json.loads(oldFile.read())
+        oldFile.close()
+        os.rename(args.old, args.output + '.json')
+        jsonOut = open(args.output + '.json', 'w')
     except json.decoder.JSONDecodeError:
         print('Could not decode json from:', args.old)
         quit()
-
+else:
+    jsonOut = open(args.output + '.json', 'w')
+    snippets = dict()
 
 for root, dirs, files in os.walk(args.dir):
     for name in files:
-        with open((os.path.join(root, name))) as f:
+        if name == 'DialogMsg.java':
+            continue
+        path = os.path.join(root, name)
+        with open(path) as f:
             contents = f.read()
-        items = re.findall("library.put.*$", contents, re.MULTILINE)
-        for item in items:
-            functionName = getName(item)
-            if args.old and functionName in oldSnippets:
+        lines = util.findFunctions(contents)
+        for line in lines:
+            if not '"' in line:
                 continue
-            javaFunctions[getJavaFile(item)] = functionName
+            functionName = util.getName(line)
+            if functionName in snippets:
+                continue
+
+            javaFileName = util.getJavaFile(line)
+            if "Event" in javaFileName:
+                jsFunctions[functionName] = {
+                    'parameters': 'function',
+                    'returnType': 'null',
+                    'module': 'event'
+                }
+            else:
+                javaFunctions[util.getJavaFile(line)] = functionName
 
 for root, dirs, files in os.walk(args.dir):
     for name in files:
         if name in javaFunctions:
-            with open((os.path.join(root, name))) as javaFile:
-                contents = f.read()
-            jsFunctions[javaFunctions[name]] = getParameters(contents)
+            path = os.path.join(root, name)
+            with open(path) as javaFile:
+                contents = javaFile.read()
+            jsFunctions[javaFunctions[name]] = util.getMethod(contents, path)
 
+out = open('directory.json', 'w')
+out.write(json.dumps(jsFunctions, indent=3)) 
+out.close()
+
+if args.snips:
+    for name, method in jsFunctions.items():
+        snippets[name] = (util.toJson(name, method['parameters'])) 
+
+    jsonOut.write(json.dumps(snippets, indent=3))
+    jsonOut.close()
