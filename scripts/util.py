@@ -1,7 +1,21 @@
 import json
+import re
 prefixForm = 'prefix: {prefix}'
 paramForm = '${{{index}:{name}}}'
 bodyForm = '{name}({params})'
+
+def snippets(jsFunctions):
+    return
+
+def docs(jsFunctions, old=None):
+    return
+
+def getModules(jsFunctions):
+    modules = set()
+    for name, method in jsFunctions.items():
+        modules.add(method['module'])
+        print(method['module'])
+    return modules
 
 def toJson(name, parameters):
     if name.startswith('on'):
@@ -40,7 +54,7 @@ def getJavaFile(line):
     return javaFile
 
 def getMethod(javaContents, path):
-    methodSig = re.search('p.*( apply| get| accept| test).*$', javaContents, re.MULTILINE).group(0)
+    methodSig = re.search('^[^/].*p.*( apply| get| accept| test).*$', javaContents, re.MULTILINE).group(0)
     parameters = methodSig[methodSig.find("(")+1:methodSig.find(")")]
     path = path.replace('\\', '/')
     method = {
@@ -51,7 +65,7 @@ def getMethod(javaContents, path):
     return method
 
 def findFunctions(fileContent):
-    return re.findall("library.put.*$", contents, flags=re.MULTILINE|re.IGNORECASE)
+    return re.findall("library.put.*$", fileContent, flags=re.MULTILINE|re.IGNORECASE)
 
 def getName(line):
     return re.search('"(.*)"', line).group(1)
