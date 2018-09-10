@@ -35,7 +35,7 @@ def normalToJson(name, parameters):
 def listenerToJson(name):
     function = {
         'prefix': name,
-        'body': (name + '(function(event) {', '    $0', '}'),
+        'body': (name + '(function(event) {', '    $0', '})'),
         'description': ''
     }
     return function
@@ -48,7 +48,6 @@ def getJavaFile(line):
 def getMethod(javaContents, path):
     methodSig = re.search('^[^/].*p.*( apply| get| accept| test).*$', javaContents, re.MULTILINE).group(0)
     parameters = methodSig[methodSig.find("(")+1:methodSig.find(")")]
-    print(parameters)
     path = path.replace('\\', '/')
     method = {
         'parameters': parameters.split(', '),

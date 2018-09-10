@@ -1,3050 +1,3050 @@
 {
-   "onDisconnectClientConnection": {
-      "body": [
-         "onDisconnectClientConnection(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDisconnectClientConnection"
-   },
-   "onTargetPlayerChangeStatistic": {
-      "body": [
-         "onTargetPlayerChangeStatistic(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetPlayerChangeStatistic"
-   },
-   "onDragPrimaryClickInventory": {
-      "body": [
-         "onDragPrimaryClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDragPrimaryClickInventory"
-   },
-   "onTargetWorldChangeWorldBorder": {
-      "body": [
-         "onTargetWorldChangeWorldBorder(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetWorldChangeWorldBorder"
-   },
-   "onPrePrimeExplosive": {
-      "body": [
-         "onPrePrimeExplosive(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrePrimeExplosive"
-   },
-   "onTargetAgent": {
-      "body": [
-         "onTargetAgent(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetAgent"
-   },
-   "onSpawnerSpawnEntity": {
-      "body": [
-         "onSpawnerSpawnEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSpawnerSpawnEntity"
-   },
-   "onDismountRideEntity": {
-      "body": [
-         "onDismountRideEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDismountRideEntity"
-   },
-   "createEntity": {
-      "body": "createEntity(${1:entityType}, ${2:worldLocation})",
-      "description": "",
-      "prefix": "createEntity"
-   },
-   "onTargetPlayerChangeWorldBorder": {
-      "body": [
-         "onTargetPlayerChangeWorldBorder(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetPlayerChangeWorldBorder"
-   },
-   "getItemStackDisplayName": {
-      "body": "getItemStackDisplayName(${1:itemStack})",
-      "description": "",
-      "prefix": "getItemStackDisplayName"
-   },
-   "onPreSleeping": {
-      "body": [
-         "onPreSleeping(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPreSleeping"
-   },
-   "onGameInitialization": {
-      "body": [
-         "onGameInitialization(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameInitialization"
-   },
-   "onChatTabComplete": {
-      "body": [
-         "onChatTabComplete(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChatTabComplete"
-   },
-   "warn": {
-      "body": "warn(${1:msg})",
-      "description": "",
-      "prefix": "warn"
-   },
-   "onFinishSleeping": {
-      "body": [
-         "onFinishSleeping(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onFinishSleeping"
-   },
-   "onChunkLoadSpawnEntity": {
-      "body": [
-         "onChunkLoadSpawnEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChunkLoadSpawnEntity"
-   },
-   "onJoinClientConnection": {
-      "body": [
-         "onJoinClientConnection(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onJoinClientConnection"
-   },
-   "onSaveWorld": {
-      "body": [
-         "onSaveWorld(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSaveWorld"
-   },
-   "onPrimaryOffHandInteractEntity": {
-      "body": [
-         "onPrimaryOffHandInteractEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrimaryOffHandInteractEntity"
-   },
-   "onPrimaryClickInventory": {
-      "body": [
-         "onPrimaryClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrimaryClickInventory"
-   },
-   "onPreDefuseExplosive": {
-      "body": [
-         "onPreDefuseExplosive(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPreDefuseExplosive"
-   },
-   "onChangeWorldGameRule": {
-      "body": [
-         "onChangeWorldGameRule(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChangeWorldGameRule"
-   },
-   "onNotifyNeighborBlock": {
-      "body": [
-         "onNotifyNeighborBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onNotifyNeighborBlock"
-   },
-   "setParticleColor": {
-      "body": "setParticleColor(${1:builder}, ${2:color})",
-      "description": "",
-      "prefix": "setParticleColor"
-   },
-   "onTargetHumanoidHarvestEntity": {
-      "body": [
-         "onTargetHumanoidHarvestEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetHumanoidHarvestEntity"
-   },
-   "onSecondaryInteractBlock": {
-      "body": [
-         "onSecondaryInteractBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSecondaryInteractBlock"
-   },
-   "setDamageFallingBlock": {
-      "body": "setDamageFallingBlock(${1:immutableFallingBlockData}, ${2:builder})",
-      "description": "",
-      "prefix": "setDamageFallingBlock"
-   },
-   "onDecayChangeBlock": {
-      "body": [
-         "onDecayChangeBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDecayChangeBlock"
-   },
-   "onChangeEntityExperience": {
-      "body": [
-         "onChangeEntityExperience(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChangeEntityExperience"
-   },
-   "getEntityMaxHealth": {
-      "body": "getEntityMaxHealth(${1:entity})",
-      "description": "",
-      "prefix": "getEntityMaxHealth"
-   },
-   "onGameLoadComplete": {
-      "body": [
-         "onGameLoadComplete(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameLoadComplete"
-   },
-   "onTargetPlayerBanUser": {
-      "body": [
-         "onTargetPlayerBanUser(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetPlayerBanUser"
-   },
-   "onPrimaryMainHandInteractBlock": {
-      "body": [
-         "onPrimaryMainHandInteractBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrimaryMainHandInteractBlock"
-   },
-   "onForcedChunk": {
-      "body": [
-         "onForcedChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onForcedChunk"
-   },
-   "onUnregisterChannelRegistration": {
-      "body": [
-         "onUnregisterChannelRegistration(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onUnregisterChannelRegistration"
-   },
-   "onMiddleClickInventory": {
-      "body": [
-         "onMiddleClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onMiddleClickInventory"
-   },
-   "onHarvestEntity": {
-      "body": [
-         "onHarvestEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onHarvestEntity"
-   },
-   "onEntityDamage": {
-      "body": [
-         "onEntityDamage(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onEntityDamage"
-   },
-   "onSecondaryMainHandInteractItem": {
-      "body": [
-         "onSecondaryMainHandInteractItem(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSecondaryMainHandInteractItem"
-   },
-   "onStartSmelt": {
-      "body": [
-         "onStartSmelt(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onStartSmelt"
-   },
-   "onAffectEntity": {
-      "body": [
-         "onAffectEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onAffectEntity"
-   },
-   "onDestructEntity": {
-      "body": [
-         "onDestructEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDestructEntity"
-   },
-   "onPreGenerateChunk": {
-      "body": [
-         "onPreGenerateChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPreGenerateChunk"
-   },
-   "onStrikeLightning": {
-      "body": [
-         "onStrikeLightning(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onStrikeLightning"
-   },
-   "onLightning": {
-      "body": [
-         "onLightning(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onLightning"
-   },
-   "setDamageMagical": {
-      "body": "setDamageMagical(${1:builder})",
-      "description": "",
-      "prefix": "setDamageMagical"
-   },
-   "onCloseInteractInventory": {
-      "body": [
-         "onCloseInteractInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onCloseInteractInventory"
-   },
-   "onCriterion": {
-      "body": [
-         "onCriterion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onCriterion"
-   },
-   "onDropClickInventory": {
-      "body": [
-         "onDropClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDropClickInventory"
-   },
-   "onBreedBreedEntity": {
-      "body": [
-         "onBreedBreedEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onBreedBreedEntity"
-   },
-   "onChangeServiceProvider": {
-      "body": [
-         "onChangeServiceProvider(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChangeServiceProvider"
-   },
-   "onSetAITarget": {
-      "body": [
-         "onSetAITarget(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSetAITarget"
-   },
-   "onChangeStatistic": {
-      "body": [
-         "onChangeStatistic(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChangeStatistic"
-   },
-   "onRemoveAITask": {
-      "body": [
-         "onRemoveAITask(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onRemoveAITask"
-   },
-   "getEntityLeggings": {
-      "body": "getEntityLeggings(${1:entity})",
-      "description": "",
-      "prefix": "getEntityLeggings"
-   },
-   "onGeneric": {
-      "body": [
-         "onGeneric(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGeneric"
-   },
-   "onConstructEntity": {
-      "body": [
-         "onConstructEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onConstructEntity"
-   },
-   "onDragSecondaryClickInventory": {
-      "body": [
-         "onDragSecondaryClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDragSecondaryClickInventory"
-   },
-   "onPlayerChangeClientSettings": {
-      "body": [
-         "onPlayerChangeClientSettings(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPlayerChangeClientSettings"
-   },
-   "onScriptReload": {
-      "body": [
-         "onScriptReload(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onScriptReload"
-   },
-   "setParticleOffset": {
-      "body": "setParticleOffset(${1:builder}, ${2:x}, ${3:y}, ${4:z})",
-      "description": "",
-      "prefix": "setParticleOffset"
-   },
-   "onGameStopping": {
-      "body": [
-         "onGameStopping(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameStopping"
-   },
-   "setDamageScale": {
-      "body": "setDamageScale(${1:damageSourceBuilder})",
-      "description": "",
-      "prefix": "setDamageScale"
-   },
-   "onAuthClientConnection": {
-      "body": [
-         "onAuthClientConnection(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onAuthClientConnection"
-   },
-   "onHealEntity": {
-      "body": [
-         "onHealEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onHealEntity"
-   },
-   "onIgniteEntity": {
-      "body": [
-         "onIgniteEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onIgniteEntity"
-   },
-   "onSwapHandChangeInventory": {
-      "body": [
-         "onSwapHandChangeInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSwapHandChangeInventory"
-   },
-   "onSecondaryInteractItem": {
-      "body": [
-         "onSecondaryInteractItem(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSecondaryInteractItem"
-   },
-   "onTargetItemExpireEntity": {
-      "body": [
-         "onTargetItemExpireEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetItemExpireEntity"
-   },
-   "onBrewing": {
-      "body": [
-         "onBrewing(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onBrewing"
-   },
-   "onTickSleeping": {
-      "body": [
-         "onTickSleeping(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTickSleeping"
-   },
-   "onDropFullClickInventory": {
-      "body": [
-         "onDropFullClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDropFullClickInventory"
-   },
-   "onPostDefuseExplosive": {
-      "body": [
-         "onPostDefuseExplosive(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPostDefuseExplosive"
-   },
-   "onChatMessageChannel": {
-      "body": [
-         "onChatMessageChannel(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChatMessageChannel"
-   },
-   "onPardonUser": {
-      "body": [
-         "onPardonUser(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPardonUser"
-   },
-   "onGamePreInitialization": {
-      "body": [
-         "onGamePreInitialization(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGamePreInitialization"
-   },
-   "onFinishUseItemStack": {
-      "body": [
-         "onFinishUseItemStack(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onFinishUseItemStack"
-   },
-   "onRegisterGameRegistry": {
-      "body": [
-         "onRegisterGameRegistry(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onRegisterGameRegistry"
-   },
-   "onExpireChangeEntityPotionEffect": {
-      "body": [
-         "onExpireChangeEntityPotionEffect(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onExpireChangeEntityPotionEffect"
-   },
-   "onTargetContainer": {
-      "body": [
-         "onTargetContainer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetContainer"
-   },
-   "onGameStartedServer": {
-      "body": [
-         "onGameStartedServer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameStartedServer"
-   },
-   "onCooldown": {
-      "body": [
-         "onCooldown(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onCooldown"
-   },
-   "setEntityName": {
-      "body": "setEntityName(${1:entity}, ${2:name})",
-      "description": "",
-      "prefix": "setEntityName"
-   },
-   "setTaskDelay": {
-      "body": "setTaskDelay(${1:builder}, ${2:ticks})",
-      "description": "",
-      "prefix": "setTaskDelay"
-   },
-   "onSendCommand": {
-      "body": [
-         "onSendCommand(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSendCommand"
-   },
-   "onTickUseItemStack": {
-      "body": [
-         "onTickUseItemStack(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTickUseItemStack"
-   },
-   "onResourcePackStatus": {
-      "body": [
-         "onResourcePackStatus(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onResourcePackStatus"
-   },
-   "setItemStackLore": {
-      "body": "setItemStackLore(${1:itemStack}, ${2:lore})",
-      "description": "",
-      "prefix": "setItemStackLore"
-   },
-   "damageEntity": {
-      "body": "damageEntity(${1:entity}, ${2:src}, ${3:damage})",
-      "description": "",
-      "prefix": "damageEntity"
-   },
-   "onPopulateChunk": {
-      "body": [
-         "onPopulateChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPopulateChunk"
-   },
    "setDamageExplosive": {
       "body": "setDamageExplosive(${1:builder})",
-      "description": "",
-      "prefix": "setDamageExplosive"
-   },
-   "addEntityPotionEffect": {
-      "body": "addEntityPotionEffect(${1:entity}, ${2:potionEffect})",
-      "description": "",
-      "prefix": "addEntityPotionEffect"
-   },
-   "onUnforcedChunk": {
-      "body": [
-         "onUnforcedChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onUnforcedChunk"
-   },
-   "onPostChunkPreGeneration": {
-      "body": [
-         "onPostChunkPreGeneration(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPostChunkPreGeneration"
-   },
-   "onRandomTickBlock": {
-      "body": [
-         "onRandomTickBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onRandomTickBlock"
-   },
-   "setDamageBlock": {
-      "body": "setDamageBlock(${1:blockSnapshot}, ${2:builder})",
-      "description": "",
-      "prefix": "setDamageBlock"
-   },
-   "onSecondaryMainHandInteractEntity": {
-      "body": [
-         "onSecondaryMainHandInteractEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSecondaryMainHandInteractEntity"
-   },
-   "getItemStackLore": {
-      "body": "getItemStackLore(${1:itemStack})",
-      "description": "",
-      "prefix": "getItemStackLore"
-   },
-   "onSecondaryMainHandInteractBlock": {
-      "body": [
-         "onSecondaryMainHandInteractBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSecondaryMainHandInteractBlock"
-   },
-   "onTameEntity": {
-      "body": [
-         "onTameEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTameEntity"
-   },
-   "onSecondaryOffHandInteractItem": {
-      "body": [
-         "onSecondaryOffHandInteractItem(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSecondaryOffHandInteractItem"
-   },
-   "getItemStackEnchants": {
-      "body": "getItemStackEnchants(${1:itemStack})",
-      "description": "",
-      "prefix": "getItemStackEnchants"
-   },
-   "setSoundPitch": {
-      "body": "setSoundPitch(${1:builder}, ${2:pitch})",
-      "description": "",
-      "prefix": "setSoundPitch"
-   },
-   "onFishing": {
-      "body": [
-         "onFishing(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onFishing"
-   },
-   "onScriptStart": {
-      "body": [
-         "onScriptStart(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onScriptStart"
-   },
-   "onRconConnection": {
-      "body": [
-         "onRconConnection(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onRconConnection"
-   },
-   "onRevokeAdvancement": {
-      "body": [
-         "onRevokeAdvancement(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onRevokeAdvancement"
-   },
-   "onSecondaryClickInventory": {
-      "body": [
-         "onSecondaryClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSecondaryClickInventory"
-   },
-   "onPrimaryInteractEntity": {
-      "body": [
-         "onPrimaryInteractEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrimaryInteractEntity"
-   },
-   "onSecondaryOffHandInteractBlock": {
-      "body": [
-         "onSecondaryOffHandInteractBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSecondaryOffHandInteractBlock"
-   },
-   "entityDamageBuilder": {
-      "body": "entityDamageBuilder()",
-      "description": "",
-      "prefix": "entityDamageBuilder"
-   },
-   "onChangeGameMode": {
-      "body": [
-         "onChangeGameMode(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChangeGameMode"
-   },
-   "onEndCooldown": {
-      "body": [
-         "onEndCooldown(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onEndCooldown"
-   },
-   "buildParticleEffect": {
-      "body": "buildParticleEffect(${1:builder})",
-      "description": "",
-      "prefix": "buildParticleEffect"
-   },
-   "onPrePopulateChunk": {
-      "body": [
-         "onPrePopulateChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrePopulateChunk"
-   },
-   "onLoadChunk": {
-      "body": [
-         "onLoadChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onLoadChunk"
-   },
-   "setDamageAbsolute": {
-      "body": "setDamageAbsolute(${1:builder})",
-      "description": "",
-      "prefix": "setDamageAbsolute"
-   },
-   "onTargetUser": {
-      "body": [
-         "onTargetUser(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetUser"
-   },
-   "onBanIp": {
-      "body": [
-         "onBanIp(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onBanIp"
-   },
-   "onTriggerCriterion": {
-      "body": [
-         "onTriggerCriterion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTriggerCriterion"
-   },
-   "onScoreChangeCriterion": {
-      "body": [
-         "onScoreChangeCriterion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onScoreChangeCriterion"
-   },
-   "onSecondaryInteractEntity": {
-      "body": [
-         "onSecondaryInteractEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSecondaryInteractEntity"
-   },
-   "onLoadWorld": {
-      "body": [
-         "onLoadWorld(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onLoadWorld"
-   },
-   "onConsumeFuelSmelt": {
-      "body": [
-         "onConsumeFuelSmelt(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onConsumeFuelSmelt"
-   },
-   "onPrimaryInteractItem": {
-      "body": [
-         "onPrimaryInteractItem(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrimaryInteractItem"
-   },
-   "onUnloadChunk": {
-      "body": [
-         "onUnloadChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onUnloadChunk"
-   },
-   "setSoundCategory": {
-      "body": "setSoundCategory(${1:builder}, ${2:soundCategory})",
-      "description": "",
-      "prefix": "setSoundCategory"
-   },
-   "onTargetWorld": {
-      "body": [
-         "onTargetWorld(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetWorld"
-   },
-   "onCancelledChunkPreGeneration": {
-      "body": [
-         "onCancelledChunkPreGeneration(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onCancelledChunkPreGeneration"
-   },
-   "getEntityBoots": {
-      "body": "getEntityBoots(${1:entity})",
-      "description": "",
-      "prefix": "getEntityBoots"
-   },
-   "style": {
-      "body": "style(${1:textStyleId})",
-      "description": "",
-      "prefix": "style"
-   },
-   "onStartFishing": {
-      "body": [
-         "onStartFishing(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onStartFishing"
-   },
-   "setDamageProxy": {
-      "body": "setDamageProxy(${1:entity}, ${2:builder})",
-      "description": "",
-      "prefix": "setDamageProxy"
-   },
-   "onUnloadWorld": {
-      "body": [
-         "onUnloadWorld(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onUnloadWorld"
-   },
-   "onStopUseItemStack": {
-      "body": [
-         "onStopUseItemStack(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onStopUseItemStack"
-   },
-   "setParticleFirework": {
-      "body": "setParticleFirework(${1:builder}, ${2:fireworks})",
-      "description": "",
-      "prefix": "setParticleFirework"
-   },
-   "onGameState": {
-      "body": [
-         "onGameState(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameState"
-   },
-   "onGamePostInitialization": {
-      "body": [
-         "onGamePostInitialization(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGamePostInitialization"
-   },
-   "onFindMateBreedEntity": {
-      "body": [
-         "onFindMateBreedEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onFindMateBreedEntity"
-   },
-   "onPostPopulateChunk": {
-      "body": [
-         "onPostPopulateChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPostPopulateChunk"
-   },
-   "onGenerateChunk": {
-      "body": [
-         "onGenerateChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGenerateChunk"
-   },
-   "onTargetExplosive": {
-      "body": [
-         "onTargetExplosive(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetExplosive"
-   },
-   "uuidOf": {
-      "body": "uuidOf(${1:s})",
-      "description": "",
-      "prefix": "uuidOf"
-   },
-   "onPostLightning": {
-      "body": [
-         "onPostLightning(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPostLightning"
-   },
-   "onHookEntityFishing": {
-      "body": [
-         "onHookEntityFishing(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onHookEntityFishing"
-   },
-   "onPostConstructEntity": {
-      "body": [
-         "onPostConstructEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPostConstructEntity"
-   },
-   "onFinishSmelt": {
-      "body": [
-         "onFinishSmelt(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onFinishSmelt"
-   },
-   "onConstructWorldProperties": {
-      "body": [
-         "onConstructWorldProperties(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onConstructWorldProperties"
-   },
-   "setDamageBlockLocation": {
-      "body": "setDamageBlockLocation(${1:blockLocation}, ${2:builder})",
-      "description": "",
-      "prefix": "setDamageBlockLocation"
-   },
-   "onPreSaveWorld": {
-      "body": [
-         "onPreSaveWorld(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPreSaveWorld"
-   },
-   "onShiftPrimaryClickInventory": {
-      "body": [
-         "onShiftPrimaryClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onShiftPrimaryClickInventory"
-   },
-   "onTargetHumanoidChangeEntityEquipment": {
-      "body": [
-         "onTargetHumanoidChangeEntityEquipment(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetHumanoidChangeEntityEquipment"
-   },
-   "onTargetProjectile": {
-      "body": [
-         "onTargetProjectile(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetProjectile"
-   },
-   "onTeleport.PortalMoveEntity": {
-      "body": [
-         "onTeleport.PortalMoveEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTeleport.PortalMoveEntity"
-   },
-   "setDamageExhaustion": {
-      "body": "setDamageExhaustion(${1:damageSourceBuilder}, ${2:exhaustion})",
-      "description": "",
-      "prefix": "setDamageExhaustion"
-   },
-   "onDragClickInventory": {
-      "body": [
-         "onDragClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDragClickInventory"
-   },
-   "onImpactCollideBlock": {
-      "body": [
-         "onImpactCollideBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onImpactCollideBlock"
-   },
-   "onChangeWorldWeather": {
-      "body": [
-         "onChangeWorldWeather(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChangeWorldWeather"
-   },
-   "onImpactCollideEntity": {
-      "body": [
-         "onImpactCollideEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onImpactCollideEntity"
-   },
-   "onPreExplosion": {
-      "body": [
-         "onPreExplosion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPreExplosion"
-   },
-   "setParticleType": {
-      "body": "setParticleType(${1:builder}, ${2:typeId})",
-      "description": "",
-      "prefix": "setParticleType"
-   },
-   "onCollide": {
-      "body": [
-         "onCollide(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onCollide"
-   },
-   "onReplaceUseItemStack": {
-      "body": [
-         "onReplaceUseItemStack(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onReplaceUseItemStack"
-   },
-   "onPreLightning": {
-      "body": [
-         "onPreLightning(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPreLightning"
-   },
-   "onAITask": {
-      "body": [
-         "onAITask(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onAITask"
-   },
-   "blockDamageBuilder": {
-      "body": "blockDamageBuilder()",
-      "description": "",
-      "prefix": "blockDamageBuilder"
-   },
-   "setEntityMaxHealth": {
-      "body": "setEntityMaxHealth(${1:entity}, ${2:maxHealth})",
-      "description": "",
-      "prefix": "setEntityMaxHealth"
-   },
-   "onDropOutsideClickInventory": {
-      "body": [
-         "onDropOutsideClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDropOutsideClickInventory"
-   },
-   "fallingBlockDamageBuilder": {
-      "body": "fallingBlockDamageBuilder()",
-      "description": "",
-      "prefix": "fallingBlockDamageBuilder"
-   },
-   "particleBuilder": {
-      "body": "particleBuilder()",
-      "description": "",
-      "prefix": "particleBuilder"
-   },
-   "startTask": {
-      "body": "startTask(${1:builder})",
-      "description": "",
-      "prefix": "startTask"
-   },
-   "onMoveEntity": {
-      "body": [
-         "onMoveEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onMoveEntity"
-   },
-   "onScoreCriterion": {
-      "body": [
-         "onScoreCriterion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onScoreCriterion"
-   },
-   "onTargetEntity": {
-      "body": [
-         "onTargetEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetEntity"
-   },
-   "onPrimaryOffHandInteractBlock": {
-      "body": [
-         "onPrimaryOffHandInteractBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrimaryOffHandInteractBlock"
-   },
-   "onTargetTileEntity": {
-      "body": [
-         "onTargetTileEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetTileEntity"
-   },
-   "onTargetPlayerPardonUser": {
-      "body": [
-         "onTargetPlayerPardonUser(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetPlayerPardonUser"
-   },
-   "onScheduledTickBlock": {
-      "body": [
-         "onScheduledTickBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onScheduledTickBlock"
-   },
-   "onDamageEntity": {
-      "body": [
-         "onDamageEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDamageEntity"
-   },
-   "onTeleportMoveEntity": {
-      "body": [
-         "onTeleportMoveEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTeleportMoveEntity"
-   },
-   "onTargetBlock": {
-      "body": [
-         "onTargetBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetBlock"
-   },
-   "onTickBrewing": {
-      "body": [
-         "onTickBrewing(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTickBrewing"
-   },
-   "onCollideBlock": {
-      "body": [
-         "onCollideBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onCollideBlock"
-   },
-   "onShiftSecondaryClickInventory": {
-      "body": [
-         "onShiftSecondaryClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onShiftSecondaryClickInventory"
-   },
-   "setEntityMainHand": {
-      "body": "setEntityMainHand(${1:entity}, ${2:item})",
-      "description": "",
-      "prefix": "setEntityMainHand"
-   },
-   "setParticleSlowHorizontal": {
-      "body": "setParticleSlowHorizontal(${1:builder}, ${2:slow})",
-      "description": "",
-      "prefix": "setParticleSlowHorizontal"
-   },
-   "onGameStoppedServer": {
-      "body": [
-         "onGameStoppedServer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameStoppedServer"
-   },
-   "onPostSaveWorld": {
-      "body": [
-         "onPostSaveWorld(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPostSaveWorld"
-   },
-   "onTickBlock": {
-      "body": [
-         "onTickBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTickBlock"
-   },
-   "onMessageChannel": {
-      "body": [
-         "onMessageChannel(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onMessageChannel"
-   },
-   "onTargetHumanoid": {
-      "body": [
-         "onTargetHumanoid(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetHumanoid"
-   },
-   "listOf": {
-      "body": "listOf(${1:array})",
-      "description": "",
-      "prefix": "listOf"
-   },
-   "playSound": {
-      "body": "playSound(${1:viewer}, ${2:sound}, ${3:position})",
-      "description": "",
-      "prefix": "playSound"
-   },
-   "onPostSleeping": {
-      "body": [
-         "onPostSleeping(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPostSleeping"
-   },
-   "onRegisterChannelRegistration": {
-      "body": [
-         "onRegisterChannelRegistration(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onRegisterChannelRegistration"
-   },
-   "onTargetInventory": {
-      "body": [
-         "onTargetInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetInventory"
-   },
-   "setDamageCreative": {
-      "body": "setDamageCreative(${1:damageSourceBuilder})",
-      "description": "",
-      "prefix": "setDamageCreative"
-   },
-   "onInteractEntity": {
-      "body": [
-         "onInteractEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onInteractEntity"
-   },
-   "onScoreRevokeCriterion": {
-      "body": [
-         "onScoreRevokeCriterion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onScoreRevokeCriterion"
-   },
-   "onClientConnection": {
-      "body": [
-         "onClientConnection(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onClientConnection"
-   },
-   "onGameRegistry": {
-      "body": [
-         "onGameRegistry(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameRegistry"
-   },
-   "onHandInteract": {
-      "body": [
-         "onHandInteract(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onHandInteract"
-   },
-   "onGameStartingServer": {
-      "body": [
-         "onGameStartingServer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameStartingServer"
-   },
-   "onTargetLivingChangeEntityEquipment": {
-      "body": [
-         "onTargetLivingChangeEntityEquipment(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetLivingChangeEntityEquipment"
-   },
-   "setParticleItem": {
-      "body": "setParticleItem(${1:builder}, ${2:item})",
-      "description": "",
-      "prefix": "setParticleItem"
-   },
-   "onGenerateLayoutAdvancementTree": {
-      "body": [
-         "onGenerateLayoutAdvancementTree(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGenerateLayoutAdvancementTree"
-   },
-   "onScriptStop": {
-      "body": [
-         "onScriptStop(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onScriptStop"
-   },
-   "onPickupChangeInventory": {
-      "body": [
-         "onPickupChangeInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPickupChangeInventory"
-   },
-   "setDamageBypass": {
-      "body": "setDamageBypass(${1:damageSourceBuilder})",
-      "description": "",
-      "prefix": "setDamageBypass"
-   },
-   "compareItemStacks": {
-      "body": "compareItemStacks(${1:first}, ${2:second})",
-      "description": "",
-      "prefix": "compareItemStacks"
-   },
-   "onDestructDropItem": {
-      "body": [
-         "onDestructDropItem(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDestructDropItem"
-   },
-   "getEntityUUID": {
-      "body": "getEntityUUID(${1:entity})",
-      "description": "",
-      "prefix": "getEntityUUID"
-   },
-   "setItemStackEnchants": {
-      "body": "setItemStackEnchants(${1:itemStack}, ${2:enchantments})",
-      "description": "",
-      "prefix": "setItemStackEnchants"
-   },
-   "onPrimaryInteractBlock": {
-      "body": [
-         "onPrimaryInteractBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrimaryInteractBlock"
-   },
-   "locationOf": {
-      "body": "locationOf(${1:world}, ${2:x}, ${3:y}, ${4:z})",
-      "description": "",
-      "prefix": "locationOf"
-   },
-   "onCompleteChunkPreGeneration": {
-      "body": [
-         "onCompleteChunkPreGeneration(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onCompleteChunkPreGeneration"
-   },
-   "blockOf": {
-      "body": "blockOf(${1:blockTypeId})",
-      "description": "",
-      "prefix": "blockOf"
-   },
-   "onScoreGrantCriterion": {
-      "body": [
-         "onScoreGrantCriterion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onScoreGrantCriterion"
-   },
-   "info": {
-      "body": "info(${1:msg})",
-      "description": "",
-      "prefix": "info"
-   },
-   "onTargetLiving": {
-      "body": [
-         "onTargetLiving(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetLiving"
-   },
-   "onChannelRegistration": {
-      "body": [
-         "onChannelRegistration(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChannelRegistration"
-   },
-   "onGameStoppingServer": {
-      "body": [
-         "onGameStoppingServer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameStoppingServer"
-   },
-   "onPickupPreChangeInventory": {
-      "body": [
-         "onPickupPreChangeInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPickupPreChangeInventory"
-   },
-   "setEntityOffHand": {
-      "body": "setEntityOffHand(${1:entity}, ${2:item})",
-      "description": "",
-      "prefix": "setEntityOffHand"
-   },
-   "onDropOutsideSecondaryClickInventory": {
-      "body": [
-         "onDropOutsideSecondaryClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDropOutsideSecondaryClickInventory"
-   },
-   "getPlayerFromName": {
-      "body": "getPlayerFromName(${1:playerName})",
-      "description": "",
-      "prefix": "getPlayerFromName"
-   },
-   "onInteract": {
-      "body": [
-         "onInteract(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onInteract"
-   },
-   "getPlayerLocation": {
-      "body": "getPlayerLocation(${1:player})",
-      "description": "",
-      "prefix": "getPlayerLocation"
-   },
-   "onTargetChunk": {
-      "body": [
-         "onTargetChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetChunk"
-   },
-   "onGameReload": {
-      "body": [
-         "onGameReload(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameReload"
-   },
-   "onDetonateExplosive": {
-      "body": [
-         "onDetonateExplosive(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDetonateExplosive"
-   },
-   "onCreativeClickInventory": {
-      "body": [
-         "onCreativeClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onCreativeClickInventory"
-   },
-   "setParticleNote": {
-      "body": "setParticleNote(${1:builder}, ${2:note})",
-      "description": "",
-      "prefix": "setParticleNote"
-   },
-   "onTargetPlayer": {
-      "body": [
-         "onTargetPlayer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetPlayer"
-   },
-   "onPardonIp": {
-      "body": [
-         "onPardonIp(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPardonIp"
-   },
-   "onDeathDestructEntity": {
-      "body": [
-         "onDeathDestructEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDeathDestructEntity"
-   },
-   "teleportPlayer": {
-      "body": "teleportPlayer(${1:player}, ${2:location})",
-      "description": "",
-      "prefix": "teleportPlayer"
-   },
-   "onModifyChangeBlock": {
-      "body": [
-         "onModifyChangeBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onModifyChangeBlock"
-   },
-   "onTargetPlayerChangeEntityEquipment": {
-      "body": [
-         "onTargetPlayerChangeEntityEquipment(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetPlayerChangeEntityEquipment"
-   },
-   "setParticleVelocity": {
-      "body": "setParticleVelocity(${1:builder}, ${2:x}, ${3:y}, ${4:z})",
-      "description": "",
-      "prefix": "setParticleVelocity"
-   },
-   "getEntityName": {
-      "body": "getEntityName(${1:entity})",
-      "description": "",
-      "prefix": "getEntityName"
-   },
-   "onGameAboutToStartServer": {
-      "body": [
-         "onGameAboutToStartServer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameAboutToStartServer"
-   },
-   "onCommandTabComplete": {
-      "body": [
-         "onCommandTabComplete(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onCommandTabComplete"
-   },
-   "onExplosion": {
-      "body": [
-         "onExplosion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onExplosion"
-   },
-   "onGrantAdvancement": {
-      "body": [
-         "onGrantAdvancement(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGrantAdvancement"
-   },
-   "onDisconnectRconConnection": {
-      "body": [
-         "onDisconnectRconConnection(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDisconnectRconConnection"
-   },
-   "onPostPrimeExplosive": {
-      "body": [
-         "onPostPrimeExplosive(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPostPrimeExplosive"
-   },
-   "onPreConstructEntity": {
-      "body": [
-         "onPreConstructEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPreConstructEntity"
-   },
-   "onTargetLivingHarvestEntity": {
-      "body": [
-         "onTargetLivingHarvestEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetLivingHarvestEntity"
-   },
-   "onLaunchProjectile": {
-      "body": [
-         "onLaunchProjectile(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onLaunchProjectile"
-   },
-   "setParticleDirection": {
-      "body": "setParticleDirection(${1:builder}, ${2:direction})",
-      "description": "",
-      "prefix": "setParticleDirection"
-   },
-   "onRevokeCriterion": {
-      "body": [
-         "onRevokeCriterion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onRevokeCriterion"
-   },
-   "setEntityLeggings": {
-      "body": "setEntityLeggings(${1:entity}, ${2:leggings})",
-      "description": "",
-      "prefix": "setEntityLeggings"
-   },
-   "onPlaceChangeBlock": {
-      "body": [
-         "onPlaceChangeBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPlaceChangeBlock"
-   },
-   "onKickPlayer": {
-      "body": [
-         "onKickPlayer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onKickPlayer"
-   },
-   "spawnEntity": {
-      "body": "spawnEntity(${1:entity})",
-      "description": "",
-      "prefix": "spawnEntity"
-   },
-   "onEconomyTransaction": {
-      "body": [
-         "onEconomyTransaction(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onEconomyTransaction"
-   },
-   "setEntityChestplate": {
-      "body": "setEntityChestplate(${1:entity}, ${2:chestplate})",
-      "description": "",
-      "prefix": "setEntityChestplate"
-   },
-   "onOpenInteractInventory": {
-      "body": [
-         "onOpenInteractInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onOpenInteractInventory"
-   },
-   "onChangeInventory": {
-      "body": [
-         "onChangeInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChangeInventory"
-   },
-   "onChangeLevel": {
-      "body": [
-         "onChangeLevel(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChangeLevel"
-   },
-   "setDamageEntity": {
-      "body": "setDamageEntity(${1:entity}, ${2:builder})",
-      "description": "",
-      "prefix": "setDamageEntity"
-   },
-   "isItemStack": {
-      "body": "isItemStack(${1:itemStack})",
-      "description": "",
-      "prefix": "isItemStack"
-   },
-   "onDetonateExplosion": {
-      "body": [
-         "onDetonateExplosion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDetonateExplosion"
-   },
-   "getBlockFromLocation": {
-      "body": "getBlockFromLocation(${1:worldLocation})",
-      "description": "",
-      "prefix": "getBlockFromLocation"
-   },
-   "setParticleScale": {
-      "body": "setParticleScale(${1:builder}, ${2:scale})",
-      "description": "",
-      "prefix": "setParticleScale"
-   },
-   "onTransferPreChangeInventory": {
-      "body": [
-         "onTransferPreChangeInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTransferPreChangeInventory"
-   },
-   "onStopFishing": {
-      "body": [
-         "onStopFishing(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onStopFishing"
-   },
-   "createItemStack": {
-      "body": "createItemStack(${1:itemTypeId}, ${2:amount})",
-      "description": "",
-      "prefix": "createItemStack"
-   },
-   "onClickInventory": {
-      "body": [
-         "onClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onClickInventory"
-   },
-   "onDropItem": {
-      "body": [
-         "onDropItem(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDropItem"
-   },
-   "onMessage": {
-      "body": [
-         "onMessage(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onMessage"
-   },
-   "onResetUseItemStack": {
-      "body": [
-         "onResetUseItemStack(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onResetUseItemStack"
-   },
-   "setEntityHelmet": {
-      "body": "setEntityHelmet(${1:entity}, ${2:helmet})",
-      "description": "",
-      "prefix": "setEntityHelmet"
-   },
-   "onChangeWorldBorder": {
-      "body": [
-         "onChangeWorldBorder(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChangeWorldBorder"
-   },
-   "error": {
-      "body": "error(${1:msg})",
-      "description": "",
-      "prefix": "error"
-   },
-   "cancelTask": {
-      "body": "cancelTask(${1:task})",
-      "description": "",
-      "prefix": "cancelTask"
-   },
-   "onDispenseDropItem": {
-      "body": [
-         "onDispenseDropItem(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDispenseDropItem"
-   },
-   "onPostGenerateChunk": {
-      "body": [
-         "onPostGenerateChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPostGenerateChunk"
-   },
-   "onAttackEntity": {
-      "body": [
-         "onAttackEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onAttackEntity"
-   },
-   "setEntityBoots": {
-      "body": "setEntityBoots(${1:entity}, ${2:boots})",
-      "description": "",
-      "prefix": "setEntityBoots"
-   },
-   "onChangeSign": {
-      "body": [
-         "onChangeSign(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onChangeSign"
-   },
-   "onPrimaryMainHandInteractEntity": {
-      "body": [
-         "onPrimaryMainHandInteractEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrimaryMainHandInteractEntity"
-   },
-   "onFinishBrewing": {
-      "body": [
-         "onFinishBrewing(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onFinishBrewing"
-   },
-   "setSoundMinVolume": {
-      "body": "setSoundMinVolume(${1:builder}, ${2:minVolume})",
-      "description": "",
-      "prefix": "setSoundMinVolume"
-   },
-   "onInteractInventory": {
-      "body": [
-         "onInteractInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onInteractInventory"
-   },
-   "onGameStopped": {
-      "body": [
-         "onGameStopped(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGameStopped"
-   },
-   "onTickSmelt": {
-      "body": [
-         "onTickSmelt(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTickSmelt"
-   },
-   "onGrantCriterion": {
-      "body": [
-         "onGrantCriterion(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onGrantCriterion"
-   },
-   "buildSound": {
-      "body": "buildSound(${1:builder})",
-      "description": "",
-      "prefix": "buildSound"
-   },
-   "onEquipmentChangeInventory": {
-      "body": [
-         "onEquipmentChangeInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onEquipmentChangeInventory"
-   },
-   "setParticleQuantity": {
-      "body": "setParticleQuantity(${1:builder}, ${2:quantity})",
-      "description": "",
-      "prefix": "setParticleQuantity"
-   },
-   "setBlockAtLocation": {
-      "body": "setBlockAtLocation(${1:worldLocation}, ${2:state})",
-      "description": "",
-      "prefix": "setBlockAtLocation"
-   },
-   "onAffectItemStack": {
-      "body": [
-         "onAffectItemStack(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onAffectItemStack"
-   },
-   "createPotionEffect": {
-      "body": "createPotionEffect(${1:effectId}, ${2:amplification}, ${3:durationTicks}, ${4:isAmbient}, ${5:hasParticles})",
-      "description": "",
-      "prefix": "createPotionEffect"
-   },
-   "getEntityPotionEffects": {
-      "body": "getEntityPotionEffects(${1:entity})",
-      "description": "",
-      "prefix": "getEntityPotionEffects"
-   },
-   "healEntity": {
-      "body": "healEntity(${1:entity}, ${2:amount})",
-      "description": "",
-      "prefix": "healEntity"
-   },
-   "onBasicQueryServer": {
-      "body": [
-         "onBasicQueryServer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onBasicQueryServer"
+      "prefix": "setDamageExplosive",
+      "description": ""
    },
    "onHeldChangeInventory": {
       "body": [
          "onHeldChangeInventory(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onHeldChangeInventory"
+      "prefix": "onHeldChangeInventory",
+      "description": ""
    },
-   "onSleeping": {
-      "body": [
-         "onSleeping(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSleeping"
+   "getEntityPotionEffects": {
+      "body": "getEntityPotionEffects(${1:entity})",
+      "prefix": "getEntityPotionEffects",
+      "description": ""
    },
-   "onClientPingServer": {
+   "onPreGenerateChunk": {
       "body": [
-         "onClientPingServer(function(event) {",
+         "onPreGenerateChunk(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onClientPingServer"
-   },
-   "onInteractBlock": {
-      "body": [
-         "onInteractBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onInteractBlock"
-   },
-   "onUnleashEntity": {
-      "body": [
-         "onUnleashEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onUnleashEntity"
-   },
-   "onDoubleClickInventory": {
-      "body": [
-         "onDoubleClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDoubleClickInventory"
-   },
-   "onSetCooldown": {
-      "body": [
-         "onSetCooldown(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onSetCooldown"
+      "prefix": "onPreGenerateChunk",
+      "description": ""
    },
    "onPrimaryMainHandInteractItem": {
       "body": [
          "onPrimaryMainHandInteractItem(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onPrimaryMainHandInteractItem"
+      "prefix": "onPrimaryMainHandInteractItem",
+      "description": ""
    },
-   "setParticleBlockState": {
-      "body": "setParticleBlockState(${1:builder}, ${2:blockState})",
-      "description": "",
-      "prefix": "setParticleBlockState"
-   },
-   "onPostExplosion": {
+   "onGameStartingServer": {
       "body": [
-         "onPostExplosion(function(event) {",
+         "onGameStartingServer(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onPostExplosion"
+      "prefix": "onGameStartingServer",
+      "description": ""
    },
-   "onTargetPlayerHarvestEntity": {
+   "onSwapHandChangeInventory": {
       "body": [
-         "onTargetPlayerHarvestEntity(function(event) {",
+         "onSwapHandChangeInventory(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onTargetPlayerHarvestEntity"
+      "prefix": "onSwapHandChangeInventory",
+      "description": ""
    },
-   "getEntityHealth": {
-      "body": "getEntityHealth(${1:entity})",
-      "description": "",
-      "prefix": "getEntityHealth"
-   },
-   "soundBuilder": {
-      "body": "soundBuilder(${1:soundType}, ${2:volume})",
-      "description": "",
-      "prefix": "soundBuilder"
-   },
-   "onNumberPressClickInventory": {
+   "onSecondaryInteractEntity": {
       "body": [
-         "onNumberPressClickInventory(function(event) {",
+         "onSecondaryInteractEntity(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onNumberPressClickInventory"
+      "prefix": "onSecondaryInteractEntity",
+      "description": ""
    },
-   "onCustomSpawnEntity": {
+   "onMessageChannel": {
       "body": [
-         "onCustomSpawnEntity(function(event) {",
+         "onMessageChannel(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onCustomSpawnEntity"
+      "prefix": "onMessageChannel",
+      "description": ""
    },
-   "onGameConstruction": {
+   "onMessage": {
       "body": [
-         "onGameConstruction(function(event) {",
+         "onMessage(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onGameConstruction"
+      "prefix": "onMessage",
+      "description": ""
    },
-   "setEntityPotionEffects": {
-      "body": "setEntityPotionEffects(${1:entity}, ${2:effects})",
-      "description": "",
-      "prefix": "setEntityPotionEffects"
-   },
-   "dropItemStackOnGround": {
-      "body": "dropItemStackOnGround(${1:itemStack}, ${2:location})",
-      "description": "",
-      "prefix": "dropItemStackOnGround"
-   },
-   "onInteractItem": {
+   "onTickUseItemStack": {
       "body": [
-         "onInteractItem(function(event) {",
+         "onTickUseItemStack(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onInteractItem"
+      "prefix": "onTickUseItemStack",
+      "description": ""
    },
-   "onMountRideEntity": {
+   "onTameEntity": {
       "body": [
-         "onMountRideEntity(function(event) {",
+         "onTameEntity(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onMountRideEntity"
+      "prefix": "onTameEntity",
+      "description": ""
    },
-   "buildTask": {
-      "body": "buildTask(${1:name})",
-      "description": "",
-      "prefix": "buildTask"
-   },
-   "onUseItemStack": {
+   "onDragPrimaryClickInventory": {
       "body": [
-         "onUseItemStack(function(event) {",
+         "onDragPrimaryClickInventory(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onUseItemStack"
+      "prefix": "onDragPrimaryClickInventory",
+      "description": ""
    },
-   "getEntityChestplate": {
-      "body": "getEntityChestplate(${1:entity})",
-      "description": "",
-      "prefix": "getEntityChestplate"
-   },
-   "onDefuseExplosive": {
+   "onDropFullClickInventory": {
       "body": [
-         "onDefuseExplosive(function(event) {",
+         "onDropFullClickInventory(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onDefuseExplosive"
+      "prefix": "onDropFullClickInventory",
+      "description": ""
    },
-   "getPlayerFromUUID": {
-      "body": "getPlayerFromUUID(${1:uuid})",
-      "description": "",
-      "prefix": "getPlayerFromUUID"
-   },
-   "onInterruptBrewing": {
+   "onDragSecondaryClickInventory": {
       "body": [
-         "onInterruptBrewing(function(event) {",
+         "onDragSecondaryClickInventory(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onInterruptBrewing"
+      "prefix": "onDragSecondaryClickInventory",
+      "description": ""
    },
-   "onPreChunkPreGeneration": {
+   "setEntityLeggings": {
+      "body": "setEntityLeggings(${1:entity}, ${2:leggings})",
+      "prefix": "setEntityLeggings",
+      "description": ""
+   },
+   "onAITask": {
       "body": [
-         "onPreChunkPreGeneration(function(event) {",
+         "onAITask(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onPreChunkPreGeneration"
-   },
-   "onItemMergeItem": {
-      "body": [
-         "onItemMergeItem(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onItemMergeItem"
-   },
-   "onFullQueryServer": {
-      "body": [
-         "onFullQueryServer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onFullQueryServer"
-   },
-   "getEntityMainHand": {
-      "body": "getEntityMainHand(${1:entity})",
-      "description": "",
-      "prefix": "getEntityMainHand"
-   },
-   "onLoginRconConnection": {
-      "body": [
-         "onLoginRconConnection(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onLoginRconConnection"
-   },
-   "onTargetPlayerChangeLevel": {
-      "body": [
-         "onTargetPlayerChangeLevel(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetPlayerChangeLevel"
-   },
-   "setTaskExecutable": {
-      "body": "setTaskExecutable(${1:builder}, ${2:runnable})",
-      "description": "",
-      "prefix": "setTaskExecutable"
-   },
-   "onStartBrewing": {
-      "body": [
-         "onStartBrewing(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onStartBrewing"
-   },
-   "onAnimateHand": {
-      "body": [
-         "onAnimateHand(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onAnimateHand"
-   },
-   "indirectEntityDamageBuilder": {
-      "body": "indirectEntityDamageBuilder()",
-      "description": "",
-      "prefix": "indirectEntityDamageBuilder"
-   },
-   "onConnectRconConnection": {
-      "body": [
-         "onConnectRconConnection(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onConnectRconConnection"
-   },
-   "onStartUseItemStack": {
-      "body": [
-         "onStartUseItemStack(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onStartUseItemStack"
-   },
-   "onLoginClientConnection": {
-      "body": [
-         "onLoginClientConnection(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onLoginClientConnection"
-   },
-   "debug": {
-      "body": "debug(${1:msg})",
-      "description": "",
-      "prefix": "debug"
-   },
-   "onRemoveChangeEntityPotionEffect": {
-      "body": [
-         "onRemoveChangeEntityPotionEffect(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onRemoveChangeEntityPotionEffect"
-   },
-   "onPopulatePopulateChunk": {
-      "body": [
-         "onPopulatePopulateChunk(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPopulatePopulateChunk"
-   },
-   "onPreDropItem": {
-      "body": [
-         "onPreDropItem(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPreDropItem"
-   },
-   "onPrimaryOffHandInteractItem": {
-      "body": [
-         "onPrimaryOffHandInteractItem(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onPrimaryOffHandInteractItem"
-   },
-   "textOf": {
-      "body": "textOf(${1:objects})",
-      "description": "",
-      "prefix": "textOf"
-   },
-   "getWorldFromName": {
-      "body": "getWorldFromName(${1:worldName})",
-      "description": "",
-      "prefix": "getWorldFromName"
-   },
-   "onTargetFusedExplosive": {
-      "body": [
-         "onTargetFusedExplosive(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTargetFusedExplosive"
-   },
-   "onTransferPostChangeInventory": {
-      "body": [
-         "onTransferPostChangeInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onTransferPostChangeInventory"
-   },
-   "onRideEntity": {
-      "body": [
-         "onRideEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onRideEntity"
-   },
-   "spawnParticles": {
-      "body": "spawnParticles(${1:particleEffect}, ${2:location}, ${3:viewer}, ${4:radius})",
-      "description": "",
-      "prefix": "spawnParticles"
-   },
-   "onEntityMove": {
-      "body": [
-         "onEntityMove(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onEntityMove"
-   },
-   "buildDamage": {
-      "body": "buildDamage(${1:builder})",
-      "description": "",
-      "prefix": "buildDamage"
-   },
-   "onImpactCollide": {
-      "body": [
-         "onImpactCollide(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onImpactCollide"
-   },
-   "onLeashEntity": {
-      "body": [
-         "onLeashEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onLeashEntity"
-   },
-   "getEntityOffHand": {
-      "body": "getEntityOffHand(${1:entity})",
-      "description": "",
-      "prefix": "getEntityOffHand"
-   },
-   "randomUUID": {
-      "body": "randomUUID()",
-      "description": "",
-      "prefix": "randomUUID"
-   },
-   "getEntityHelmet": {
-      "body": "getEntityHelmet(${1:entity})",
-      "description": "",
-      "prefix": "getEntityHelmet"
-   },
-   "onQueryServer": {
-      "body": [
-         "onQueryServer(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onQueryServer"
-   },
-   "onBreakChangeBlock": {
-      "body": [
-         "onBreakChangeBlock(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onBreakChangeBlock"
-   },
-   "onDropOutsidePrimaryClickInventory": {
-      "body": [
-         "onDropOutsidePrimaryClickInventory(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onDropOutsidePrimaryClickInventory"
-   },
-   "onExpireEntity": {
-      "body": [
-         "onExpireEntity(function(event) {",
-         "    $0",
-         "}"
-      ],
-      "description": "",
-      "prefix": "onExpireEntity"
-   },
-   "getPlayerUUID": {
-      "body": "getPlayerUUID(${1:player})",
-      "description": "",
-      "prefix": "getPlayerUUID"
+      "prefix": "onAITask",
+      "description": ""
    },
    "onShiftClickInventory": {
       "body": [
          "onShiftClickInventory(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onShiftClickInventory"
+      "prefix": "onShiftClickInventory",
+      "description": ""
    },
-   "onCustomDropItem": {
+   "onRevokeAdvancement": {
       "body": [
-         "onCustomDropItem(function(event) {",
+         "onRevokeAdvancement(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onCustomDropItem"
+      "prefix": "onRevokeAdvancement",
+      "description": ""
    },
-   "onCollideEntity": {
+   "onDropItem": {
       "body": [
-         "onCollideEntity(function(event) {",
+         "onDropItem(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onCollideEntity"
+      "prefix": "onDropItem",
+      "description": ""
    },
-   "onConstructPortal": {
+   "onStartFishing": {
       "body": [
-         "onConstructPortal(function(event) {",
+         "onStartFishing(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onConstructPortal"
+      "prefix": "onStartFishing",
+      "description": ""
    },
-   "color": {
-      "body": "color(${1:textColorId})",
-      "description": "",
-      "prefix": "color"
-   },
-   "onAffectSlot": {
+   "onGameRegistry": {
       "body": [
-         "onAffectSlot(function(event) {",
+         "onGameRegistry(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onAffectSlot"
+      "prefix": "onGameRegistry",
+      "description": ""
+   },
+   "onPrePopulateChunk": {
+      "body": [
+         "onPrePopulateChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrePopulateChunk",
+      "description": ""
+   },
+   "onDisconnectClientConnection": {
+      "body": [
+         "onDisconnectClientConnection(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDisconnectClientConnection",
+      "description": ""
+   },
+   "onPrimaryOffHandInteractBlock": {
+      "body": [
+         "onPrimaryOffHandInteractBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrimaryOffHandInteractBlock",
+      "description": ""
+   },
+   "onSpawnerSpawnEntity": {
+      "body": [
+         "onSpawnerSpawnEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSpawnerSpawnEntity",
+      "description": ""
    },
    "onTargetItem": {
       "body": [
          "onTargetItem(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onTargetItem"
+      "prefix": "onTargetItem",
+      "description": ""
    },
-   "onTabComplete": {
+   "setDamageFallingBlock": {
+      "body": "setDamageFallingBlock(${1:immutableFallingBlockData}, ${2:builder})",
+      "prefix": "setDamageFallingBlock",
+      "description": ""
+   },
+   "onChangeServiceProvider": {
       "body": [
-         "onTabComplete(function(event) {",
+         "onChangeServiceProvider(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onTabComplete"
+      "prefix": "onChangeServiceProvider",
+      "description": ""
    },
-   "onChunkPreGeneration": {
+   "onScoreChangeCriterion": {
       "body": [
-         "onChunkPreGeneration(function(event) {",
+         "onScoreChangeCriterion(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onChunkPreGeneration"
+      "prefix": "onScoreChangeCriterion",
+      "description": ""
    },
-   "setItemStackDisplayName": {
-      "body": "setItemStackDisplayName(${1:itemStack}, ${2:text})",
-      "description": "",
-      "prefix": "setItemStackDisplayName"
+   "addEntityPotionEffect": {
+      "body": "addEntityPotionEffect(${1:entity}, ${2:potionEffect})",
+      "prefix": "addEntityPotionEffect",
+      "description": ""
    },
-   "onDropSingleClickInventory": {
+   "onEquipmentChangeInventory": {
       "body": [
-         "onDropSingleClickInventory(function(event) {",
+         "onEquipmentChangeInventory(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onDropSingleClickInventory"
+      "prefix": "onEquipmentChangeInventory",
+      "description": ""
    },
-   "onSecondaryOffHandInteractEntity": {
+   "setDamageBlockLocation": {
+      "body": "setDamageBlockLocation(${1:blockLocation}, ${2:builder})",
+      "prefix": "setDamageBlockLocation",
+      "description": ""
+   },
+   "onGameStopped": {
       "body": [
-         "onSecondaryOffHandInteractEntity(function(event) {",
+         "onGameStopped(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onSecondaryOffHandInteractEntity"
+      "prefix": "onGameStopped",
+      "description": ""
    },
-   "onSmelt": {
+   "onClientPingServer": {
       "body": [
-         "onSmelt(function(event) {",
+         "onClientPingServer(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onSmelt"
+      "prefix": "onClientPingServer",
+      "description": ""
    },
-   "onTransferChangeInventory": {
+   "onDropOutsideClickInventory": {
       "body": [
-         "onTransferChangeInventory(function(event) {",
+         "onDropOutsideClickInventory(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onTransferChangeInventory"
+      "prefix": "onDropOutsideClickInventory",
+      "description": ""
    },
-   "onPrimeExplosive": {
+   "setParticleOffset": {
+      "body": "setParticleOffset(${1:builder}, ${2:x}, ${3:y}, ${4:z})",
+      "prefix": "setParticleOffset",
+      "description": ""
+   },
+   "setParticleBlockState": {
+      "body": "setParticleBlockState(${1:builder}, ${2:blockState})",
+      "prefix": "setParticleBlockState",
+      "description": ""
+   },
+   "onQueryServer": {
       "body": [
-         "onPrimeExplosive(function(event) {",
+         "onQueryServer(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onPrimeExplosive"
+      "prefix": "onQueryServer",
+      "description": ""
    },
-   "onGainChangeEntityPotionEffect": {
+   "onScriptReload": {
       "body": [
-         "onGainChangeEntityPotionEffect(function(event) {",
+         "onScriptReload(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onGainChangeEntityPotionEffect"
+      "prefix": "onScriptReload",
+      "description": ""
    },
-   "onInterruptSmelt": {
+   "onPostSleeping": {
       "body": [
-         "onInterruptSmelt(function(event) {",
+         "onPostSleeping(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onInterruptSmelt"
+      "prefix": "onPostSleeping",
+      "description": ""
    },
-   "setParticlePotion": {
-      "body": "setParticlePotion(${1:builder}, ${2:potionTypeId})",
-      "description": "",
-      "prefix": "setParticlePotion"
-   },
-   "setTaskInterval": {
-      "body": "setTaskInterval(${1:builder}, ${2:ticks})",
-      "description": "",
-      "prefix": "setTaskInterval"
-   },
-   "setDamageType": {
-      "body": "setDamageType(${1:damageType})",
-      "description": "",
-      "prefix": "setDamageType"
-   },
-   "onGrowChangeBlock": {
+   "onTransferPostChangeInventory": {
       "body": [
-         "onGrowChangeBlock(function(event) {",
+         "onTransferPostChangeInventory(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onGrowChangeBlock"
+      "prefix": "onTransferPostChangeInventory",
+      "description": ""
    },
-   "onSpawnEntity": {
+   "onPrePrimeExplosive": {
       "body": [
-         "onSpawnEntity(function(event) {",
+         "onPrePrimeExplosive(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onSpawnEntity"
+      "prefix": "onPrePrimeExplosive",
+      "description": ""
+   },
+   "onGameStoppedServer": {
+      "body": [
+         "onGameStoppedServer(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGameStoppedServer",
+      "description": ""
+   },
+   "onGamePostInitialization": {
+      "body": [
+         "onGamePostInitialization(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGamePostInitialization",
+      "description": ""
+   },
+   "setEntityChestplate": {
+      "body": "setEntityChestplate(${1:entity}, ${2:chestplate})",
+      "prefix": "setEntityChestplate",
+      "description": ""
    },
    "onRespawnPlayer": {
       "body": [
          "onRespawnPlayer(function(event) {",
          "    $0",
-         "}"
+         "})"
       ],
-      "description": "",
-      "prefix": "onRespawnPlayer"
+      "prefix": "onRespawnPlayer",
+      "description": ""
+   },
+   "onGameConstruction": {
+      "body": [
+         "onGameConstruction(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGameConstruction",
+      "description": ""
+   },
+   "setParticleFirework": {
+      "body": "setParticleFirework(${1:builder}, ${2:fireworks})",
+      "prefix": "setParticleFirework",
+      "description": ""
+   },
+   "onImpactCollideEntity": {
+      "body": [
+         "onImpactCollideEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onImpactCollideEntity",
+      "description": ""
+   },
+   "onShiftPrimaryClickInventory": {
+      "body": [
+         "onShiftPrimaryClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onShiftPrimaryClickInventory",
+      "description": ""
+   },
+   "onJoinClientConnection": {
+      "body": [
+         "onJoinClientConnection(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onJoinClientConnection",
+      "description": ""
+   },
+   "uuidOf": {
+      "body": "uuidOf(${1:s})",
+      "prefix": "uuidOf",
+      "description": ""
+   },
+   "onExpireEntity": {
+      "body": [
+         "onExpireEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onExpireEntity",
+      "description": ""
+   },
+   "onHookEntityFishing": {
+      "body": [
+         "onHookEntityFishing(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onHookEntityFishing",
+      "description": ""
+   },
+   "onScriptStart": {
+      "body": [
+         "onScriptStart(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onScriptStart",
+      "description": ""
+   },
+   "getItemStackLore": {
+      "body": "getItemStackLore(${1:itemStack})",
+      "prefix": "getItemStackLore",
+      "description": ""
+   },
+   "onFinishSleeping": {
+      "body": [
+         "onFinishSleeping(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onFinishSleeping",
+      "description": ""
+   },
+   "onDismountRideEntity": {
+      "body": [
+         "onDismountRideEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDismountRideEntity",
+      "description": ""
+   },
+   "onDecayChangeBlock": {
+      "body": [
+         "onDecayChangeBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDecayChangeBlock",
+      "description": ""
+   },
+   "onTickBrewing": {
+      "body": [
+         "onTickBrewing(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTickBrewing",
+      "description": ""
+   },
+   "onTargetContainer": {
+      "body": [
+         "onTargetContainer(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetContainer",
+      "description": ""
+   },
+   "onTargetHumanoidHarvestEntity": {
+      "body": [
+         "onTargetHumanoidHarvestEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetHumanoidHarvestEntity",
+      "description": ""
+   },
+   "onTargetChunk": {
+      "body": [
+         "onTargetChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetChunk",
+      "description": ""
+   },
+   "onIgniteEntity": {
+      "body": [
+         "onIgniteEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onIgniteEntity",
+      "description": ""
+   },
+   "onDamageEntity": {
+      "body": [
+         "onDamageEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDamageEntity",
+      "description": ""
+   },
+   "onRevokeCriterion": {
+      "body": [
+         "onRevokeCriterion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onRevokeCriterion",
+      "description": ""
+   },
+   "onTransferPreChangeInventory": {
+      "body": [
+         "onTransferPreChangeInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTransferPreChangeInventory",
+      "description": ""
+   },
+   "getEntityChestplate": {
+      "body": "getEntityChestplate(${1:entity})",
+      "prefix": "getEntityChestplate",
+      "description": ""
+   },
+   "onConstructWorldProperties": {
+      "body": [
+         "onConstructWorldProperties(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onConstructWorldProperties",
+      "description": ""
+   },
+   "info": {
+      "body": "info(${1:msg})",
+      "prefix": "info",
+      "description": ""
+   },
+   "onTargetTileEntity": {
+      "body": [
+         "onTargetTileEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetTileEntity",
+      "description": ""
+   },
+   "onBreakChangeBlock": {
+      "body": [
+         "onBreakChangeBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onBreakChangeBlock",
+      "description": ""
+   },
+   "warn": {
+      "body": "warn(${1:msg})",
+      "prefix": "warn",
+      "description": ""
+   },
+   "buildSound": {
+      "body": "buildSound(${1:builder})",
+      "prefix": "buildSound",
+      "description": ""
+   },
+   "onSecondaryMainHandInteractBlock": {
+      "body": [
+         "onSecondaryMainHandInteractBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSecondaryMainHandInteractBlock",
+      "description": ""
+   },
+   "onConstructPortal": {
+      "body": [
+         "onConstructPortal(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onConstructPortal",
+      "description": ""
+   },
+   "setItemStackLore": {
+      "body": "setItemStackLore(${1:itemStack}, ${2:lore})",
+      "prefix": "setItemStackLore",
+      "description": ""
+   },
+   "onAffectItemStack": {
+      "body": [
+         "onAffectItemStack(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onAffectItemStack",
+      "description": ""
+   },
+   "onSecondaryMainHandInteractEntity": {
+      "body": [
+         "onSecondaryMainHandInteractEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSecondaryMainHandInteractEntity",
+      "description": ""
+   },
+   "spawnEntity": {
+      "body": "spawnEntity(${1:entity})",
+      "prefix": "spawnEntity",
+      "description": ""
+   },
+   "onUnforcedChunk": {
+      "body": [
+         "onUnforcedChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onUnforcedChunk",
+      "description": ""
+   },
+   "onScheduledTickBlock": {
+      "body": [
+         "onScheduledTickBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onScheduledTickBlock",
+      "description": ""
+   },
+   "setDamageProxy": {
+      "body": "setDamageProxy(${1:entity}, ${2:builder})",
+      "prefix": "setDamageProxy",
+      "description": ""
+   },
+   "onInteractInventory": {
+      "body": [
+         "onInteractInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onInteractInventory",
+      "description": ""
+   },
+   "blockDamageBuilder": {
+      "body": "blockDamageBuilder()",
+      "prefix": "blockDamageBuilder",
+      "description": ""
+   },
+   "onGamePreInitialization": {
+      "body": [
+         "onGamePreInitialization(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGamePreInitialization",
+      "description": ""
+   },
+   "onDetonateExplosion": {
+      "body": [
+         "onDetonateExplosion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDetonateExplosion",
+      "description": ""
+   },
+   "setParticleItem": {
+      "body": "setParticleItem(${1:builder}, ${2:item})",
+      "prefix": "setParticleItem",
+      "description": ""
+   },
+   "onRideEntity": {
+      "body": [
+         "onRideEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onRideEntity",
+      "description": ""
+   },
+   "getEntityHelmet": {
+      "body": "getEntityHelmet(${1:entity})",
+      "prefix": "getEntityHelmet",
+      "description": ""
+   },
+   "onDefuseExplosive": {
+      "body": [
+         "onDefuseExplosive(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDefuseExplosive",
+      "description": ""
+   },
+   "onShiftSecondaryClickInventory": {
+      "body": [
+         "onShiftSecondaryClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onShiftSecondaryClickInventory",
+      "description": ""
+   },
+   "onChangeLevel": {
+      "body": [
+         "onChangeLevel(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChangeLevel",
+      "description": ""
+   },
+   "onGeneric": {
+      "body": [
+         "onGeneric(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGeneric",
+      "description": ""
+   },
+   "onDropOutsidePrimaryClickInventory": {
+      "body": [
+         "onDropOutsidePrimaryClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDropOutsidePrimaryClickInventory",
+      "description": ""
+   },
+   "getPlayerLocation": {
+      "body": "getPlayerLocation(${1:player})",
+      "prefix": "getPlayerLocation",
+      "description": ""
+   },
+   "onDestructEntity": {
+      "body": [
+         "onDestructEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDestructEntity",
+      "description": ""
+   },
+   "onTargetWorld": {
+      "body": [
+         "onTargetWorld(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetWorld",
+      "description": ""
+   },
+   "onEndCooldown": {
+      "body": [
+         "onEndCooldown(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onEndCooldown",
+      "description": ""
+   },
+   "onPrimaryOffHandInteractEntity": {
+      "body": [
+         "onPrimaryOffHandInteractEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrimaryOffHandInteractEntity",
+      "description": ""
+   },
+   "setDamageType": {
+      "body": "setDamageType(${1:damageType})",
+      "prefix": "setDamageType",
+      "description": ""
+   },
+   "setParticlePotion": {
+      "body": "setParticlePotion(${1:builder}, ${2:potionTypeId})",
+      "prefix": "setParticlePotion",
+      "description": ""
+   },
+   "buildDamage": {
+      "body": "buildDamage(${1:builder})",
+      "prefix": "buildDamage",
+      "description": ""
+   },
+   "onUnregisterChannelRegistration": {
+      "body": [
+         "onUnregisterChannelRegistration(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onUnregisterChannelRegistration",
+      "description": ""
+   },
+   "particleBuilder": {
+      "body": "particleBuilder()",
+      "prefix": "particleBuilder",
+      "description": ""
+   },
+   "onLoginRconConnection": {
+      "body": [
+         "onLoginRconConnection(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onLoginRconConnection",
+      "description": ""
+   },
+   "onChangeGameMode": {
+      "body": [
+         "onChangeGameMode(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChangeGameMode",
+      "description": ""
+   },
+   "onCancelledChunkPreGeneration": {
+      "body": [
+         "onCancelledChunkPreGeneration(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCancelledChunkPreGeneration",
+      "description": ""
+   },
+   "onSecondaryMainHandInteractItem": {
+      "body": [
+         "onSecondaryMainHandInteractItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSecondaryMainHandInteractItem",
+      "description": ""
+   },
+   "onImpactCollideBlock": {
+      "body": [
+         "onImpactCollideBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onImpactCollideBlock",
+      "description": ""
+   },
+   "getEntityName": {
+      "body": "getEntityName(${1:entity})",
+      "prefix": "getEntityName",
+      "description": ""
+   },
+   "onFinishBrewing": {
+      "body": [
+         "onFinishBrewing(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onFinishBrewing",
+      "description": ""
+   },
+   "onChangeWorldWeather": {
+      "body": [
+         "onChangeWorldWeather(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChangeWorldWeather",
+      "description": ""
+   },
+   "onChangeEntityExperience": {
+      "body": [
+         "onChangeEntityExperience(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChangeEntityExperience",
+      "description": ""
+   },
+   "startTask": {
+      "body": "startTask(${1:builder})",
+      "prefix": "startTask",
+      "description": ""
+   },
+   "onInteractEntity": {
+      "body": [
+         "onInteractEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onInteractEntity",
+      "description": ""
+   },
+   "onClientConnection": {
+      "body": [
+         "onClientConnection(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onClientConnection",
+      "description": ""
+   },
+   "onTargetProjectile": {
+      "body": [
+         "onTargetProjectile(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetProjectile",
+      "description": ""
+   },
+   "cancelTask": {
+      "body": "cancelTask(${1:task})",
+      "prefix": "cancelTask",
+      "description": ""
+   },
+   "onSecondaryClickInventory": {
+      "body": [
+         "onSecondaryClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSecondaryClickInventory",
+      "description": ""
+   },
+   "setDamageBypass": {
+      "body": "setDamageBypass(${1:damageSourceBuilder})",
+      "prefix": "setDamageBypass",
+      "description": ""
+   },
+   "onGrantCriterion": {
+      "body": [
+         "onGrantCriterion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGrantCriterion",
+      "description": ""
+   },
+   "onTargetPlayerChangeStatistic": {
+      "body": [
+         "onTargetPlayerChangeStatistic(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetPlayerChangeStatistic",
+      "description": ""
+   },
+   "onPostConstructEntity": {
+      "body": [
+         "onPostConstructEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPostConstructEntity",
+      "description": ""
+   },
+   "setParticleScale": {
+      "body": "setParticleScale(${1:builder}, ${2:scale})",
+      "prefix": "setParticleScale",
+      "description": ""
+   },
+   "onInteract": {
+      "body": [
+         "onInteract(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onInteract",
+      "description": ""
+   },
+   "color": {
+      "body": "color(${1:textColorId})",
+      "prefix": "color",
+      "description": ""
+   },
+   "getPlayerFromName": {
+      "body": "getPlayerFromName(${1:playerName})",
+      "prefix": "getPlayerFromName",
+      "description": ""
+   },
+   "setDamageBlock": {
+      "body": "setDamageBlock(${1:blockSnapshot}, ${2:builder})",
+      "prefix": "setDamageBlock",
+      "description": ""
+   },
+   "onPreDropItem": {
+      "body": [
+         "onPreDropItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPreDropItem",
+      "description": ""
+   },
+   "onChunkPreGeneration": {
+      "body": [
+         "onChunkPreGeneration(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChunkPreGeneration",
+      "description": ""
+   },
+   "onTargetHumanoid": {
+      "body": [
+         "onTargetHumanoid(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetHumanoid",
+      "description": ""
+   },
+   "onScoreCriterion": {
+      "body": [
+         "onScoreCriterion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onScoreCriterion",
+      "description": ""
+   },
+   "onGameInitialization": {
+      "body": [
+         "onGameInitialization(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGameInitialization",
+      "description": ""
+   },
+   "onPostChunkPreGeneration": {
+      "body": [
+         "onPostChunkPreGeneration(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPostChunkPreGeneration",
+      "description": ""
+   },
+   "compareItemStacks": {
+      "body": "compareItemStacks(${1:first}, ${2:second})",
+      "prefix": "compareItemStacks",
+      "description": ""
+   },
+   "onPrimaryInteractEntity": {
+      "body": [
+         "onPrimaryInteractEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrimaryInteractEntity",
+      "description": ""
+   },
+   "onModifyChangeBlock": {
+      "body": [
+         "onModifyChangeBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onModifyChangeBlock",
+      "description": ""
+   },
+   "onScoreGrantCriterion": {
+      "body": [
+         "onScoreGrantCriterion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onScoreGrantCriterion",
+      "description": ""
+   },
+   "onGenerateChunk": {
+      "body": [
+         "onGenerateChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGenerateChunk",
+      "description": ""
+   },
+   "onPreDefuseExplosive": {
+      "body": [
+         "onPreDefuseExplosive(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPreDefuseExplosive",
+      "description": ""
+   },
+   "onBanIp": {
+      "body": [
+         "onBanIp(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onBanIp",
+      "description": ""
+   },
+   "onPlaceChangeBlock": {
+      "body": [
+         "onPlaceChangeBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPlaceChangeBlock",
+      "description": ""
+   },
+   "onTeleportMoveEntity": {
+      "body": [
+         "onTeleportMoveEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTeleportMoveEntity",
+      "description": ""
+   },
+   "onGameAboutToStartServer": {
+      "body": [
+         "onGameAboutToStartServer(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGameAboutToStartServer",
+      "description": ""
+   },
+   "onTargetPlayerPardonUser": {
+      "body": [
+         "onTargetPlayerPardonUser(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetPlayerPardonUser",
+      "description": ""
+   },
+   "onExpireChangeEntityPotionEffect": {
+      "body": [
+         "onExpireChangeEntityPotionEffect(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onExpireChangeEntityPotionEffect",
+      "description": ""
+   },
+   "getEntityBoots": {
+      "body": "getEntityBoots(${1:entity})",
+      "prefix": "getEntityBoots",
+      "description": ""
+   },
+   "onSecondaryOffHandInteractEntity": {
+      "body": [
+         "onSecondaryOffHandInteractEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSecondaryOffHandInteractEntity",
+      "description": ""
+   },
+   "onPreSaveWorld": {
+      "body": [
+         "onPreSaveWorld(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPreSaveWorld",
+      "description": ""
+   },
+   "onHealEntity": {
+      "body": [
+         "onHealEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onHealEntity",
+      "description": ""
+   },
+   "createPotionEffect": {
+      "body": "createPotionEffect(${1:effectId}, ${2:amplification}, ${3:durationTicks}, ${4:isAmbient}, ${5:hasParticles})",
+      "prefix": "createPotionEffect",
+      "description": ""
+   },
+   "onNotifyNeighborBlock": {
+      "body": [
+         "onNotifyNeighborBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onNotifyNeighborBlock",
+      "description": ""
+   },
+   "onStrikeLightning": {
+      "body": [
+         "onStrikeLightning(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onStrikeLightning",
+      "description": ""
+   },
+   "onDeathDestructEntity": {
+      "body": [
+         "onDeathDestructEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDeathDestructEntity",
+      "description": ""
+   },
+   "onCustomDropItem": {
+      "body": [
+         "onCustomDropItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCustomDropItem",
+      "description": ""
+   },
+   "onTransferChangeInventory": {
+      "body": [
+         "onTransferChangeInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTransferChangeInventory",
+      "description": ""
+   },
+   "onChangeSign": {
+      "body": [
+         "onChangeSign(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChangeSign",
+      "description": ""
+   },
+   "onTargetEntity": {
+      "body": [
+         "onTargetEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetEntity",
+      "description": ""
+   },
+   "onSmelt": {
+      "body": [
+         "onSmelt(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSmelt",
+      "description": ""
+   },
+   "setItemStackDisplayName": {
+      "body": "setItemStackDisplayName(${1:itemStack}, ${2:text})",
+      "prefix": "setItemStackDisplayName",
+      "description": ""
+   },
+   "onItemMergeItem": {
+      "body": [
+         "onItemMergeItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onItemMergeItem",
+      "description": ""
+   },
+   "onLoginClientConnection": {
+      "body": [
+         "onLoginClientConnection(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onLoginClientConnection",
+      "description": ""
+   },
+   "onConstructEntity": {
+      "body": [
+         "onConstructEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onConstructEntity",
+      "description": ""
+   },
+   "onFinishUseItemStack": {
+      "body": [
+         "onFinishUseItemStack(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onFinishUseItemStack",
+      "description": ""
+   },
+   "onImpactCollide": {
+      "body": [
+         "onImpactCollide(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onImpactCollide",
+      "description": ""
+   },
+   "onCloseInteractInventory": {
+      "body": [
+         "onCloseInteractInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCloseInteractInventory",
+      "description": ""
+   },
+   "onGameReload": {
+      "body": [
+         "onGameReload(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGameReload",
+      "description": ""
+   },
+   "onPostExplosion": {
+      "body": [
+         "onPostExplosion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPostExplosion",
+      "description": ""
+   },
+   "onCollideEntity": {
+      "body": [
+         "onCollideEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCollideEntity",
+      "description": ""
+   },
+   "onLoadChunk": {
+      "body": [
+         "onLoadChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onLoadChunk",
+      "description": ""
+   },
+   "onChangeStatistic": {
+      "body": [
+         "onChangeStatistic(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChangeStatistic",
+      "description": ""
+   },
+   "textOf": {
+      "body": "textOf(${1:objects})",
+      "prefix": "textOf",
+      "description": ""
+   },
+   "onTargetFusedExplosive": {
+      "body": [
+         "onTargetFusedExplosive(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetFusedExplosive",
+      "description": ""
+   },
+   "onTriggerCriterion": {
+      "body": [
+         "onTriggerCriterion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTriggerCriterion",
+      "description": ""
+   },
+   "getWorldFromName": {
+      "body": "getWorldFromName(${1:worldName})",
+      "prefix": "getWorldFromName",
+      "description": ""
+   },
+   "onTickSleeping": {
+      "body": [
+         "onTickSleeping(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTickSleeping",
+      "description": ""
+   },
+   "onPostPrimeExplosive": {
+      "body": [
+         "onPostPrimeExplosive(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPostPrimeExplosive",
+      "description": ""
+   },
+   "onScoreRevokeCriterion": {
+      "body": [
+         "onScoreRevokeCriterion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onScoreRevokeCriterion",
+      "description": ""
+   },
+   "setTaskDelay": {
+      "body": "setTaskDelay(${1:builder}, ${2:ticks})",
+      "prefix": "setTaskDelay",
+      "description": ""
+   },
+   "onMoveEntity": {
+      "body": [
+         "onMoveEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onMoveEntity",
+      "description": ""
+   },
+   "onPardonUser": {
+      "body": [
+         "onPardonUser(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPardonUser",
+      "description": ""
+   },
+   "onPreLightning": {
+      "body": [
+         "onPreLightning(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPreLightning",
+      "description": ""
+   },
+   "getPlayerFromUUID": {
+      "body": "getPlayerFromUUID(${1:uuid})",
+      "prefix": "getPlayerFromUUID",
+      "description": ""
+   },
+   "onResetUseItemStack": {
+      "body": [
+         "onResetUseItemStack(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onResetUseItemStack",
+      "description": ""
+   },
+   "setParticleQuantity": {
+      "body": "setParticleQuantity(${1:builder}, ${2:quantity})",
+      "prefix": "setParticleQuantity",
+      "description": ""
+   },
+   "onTargetLiving": {
+      "body": [
+         "onTargetLiving(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetLiving",
+      "description": ""
+   },
+   "onPopulateChunk": {
+      "body": [
+         "onPopulateChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPopulateChunk",
+      "description": ""
+   },
+   "setDamageEntity": {
+      "body": "setDamageEntity(${1:entity}, ${2:builder})",
+      "prefix": "setDamageEntity",
+      "description": ""
+   },
+   "onPostDefuseExplosive": {
+      "body": [
+         "onPostDefuseExplosive(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPostDefuseExplosive",
+      "description": ""
+   },
+   "setSoundCategory": {
+      "body": "setSoundCategory(${1:builder}, ${2:soundCategory})",
+      "prefix": "setSoundCategory",
+      "description": ""
+   },
+   "onPrimeExplosive": {
+      "body": [
+         "onPrimeExplosive(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrimeExplosive",
+      "description": ""
+   },
+   "setItemStackEnchants": {
+      "body": "setItemStackEnchants(${1:itemStack}, ${2:enchantments})",
+      "prefix": "setItemStackEnchants",
+      "description": ""
+   },
+   "onGameStopping": {
+      "body": [
+         "onGameStopping(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGameStopping",
+      "description": ""
+   },
+   "getEntityHealth": {
+      "body": "getEntityHealth(${1:entity})",
+      "prefix": "getEntityHealth",
+      "description": ""
+   },
+   "onDropClickInventory": {
+      "body": [
+         "onDropClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDropClickInventory",
+      "description": ""
+   },
+   "setEntityBoots": {
+      "body": "setEntityBoots(${1:entity}, ${2:boots})",
+      "prefix": "setEntityBoots",
+      "description": ""
+   },
+   "onChangeWorldGameRule": {
+      "body": [
+         "onChangeWorldGameRule(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChangeWorldGameRule",
+      "description": ""
+   },
+   "getEntityOffHand": {
+      "body": "getEntityOffHand(${1:entity})",
+      "prefix": "getEntityOffHand",
+      "description": ""
+   },
+   "indirectEntityDamageBuilder": {
+      "body": "indirectEntityDamageBuilder()",
+      "prefix": "indirectEntityDamageBuilder",
+      "description": ""
+   },
+   "spawnParticles": {
+      "body": "spawnParticles(${1:particleEffect}, ${2:location}, ${3:viewer}, ${4:radius})",
+      "prefix": "spawnParticles",
+      "description": ""
+   },
+   "onLaunchProjectile": {
+      "body": [
+         "onLaunchProjectile(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onLaunchProjectile",
+      "description": ""
+   },
+   "onSpawnEntity": {
+      "body": [
+         "onSpawnEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSpawnEntity",
+      "description": ""
+   },
+   "fallingBlockDamageBuilder": {
+      "body": "fallingBlockDamageBuilder()",
+      "prefix": "fallingBlockDamageBuilder",
+      "description": ""
+   },
+   "onPreSleeping": {
+      "body": [
+         "onPreSleeping(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPreSleeping",
+      "description": ""
+   },
+   "onCooldown": {
+      "body": [
+         "onCooldown(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCooldown",
+      "description": ""
+   },
+   "onTargetPlayer": {
+      "body": [
+         "onTargetPlayer(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetPlayer",
+      "description": ""
+   },
+   "onKickPlayer": {
+      "body": [
+         "onKickPlayer(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onKickPlayer",
+      "description": ""
+   },
+   "onBreedBreedEntity": {
+      "body": [
+         "onBreedBreedEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onBreedBreedEntity",
+      "description": ""
+   },
+   "getEntityMaxHealth": {
+      "body": "getEntityMaxHealth(${1:entity})",
+      "prefix": "getEntityMaxHealth",
+      "description": ""
+   },
+   "isItemStack": {
+      "body": "isItemStack(${1:itemStack})",
+      "prefix": "isItemStack",
+      "description": ""
+   },
+   "onGrantAdvancement": {
+      "body": [
+         "onGrantAdvancement(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGrantAdvancement",
+      "description": ""
+   },
+   "setParticleVelocity": {
+      "body": "setParticleVelocity(${1:builder}, ${2:x}, ${3:y}, ${4:z})",
+      "prefix": "setParticleVelocity",
+      "description": ""
+   },
+   "healEntity": {
+      "body": "healEntity(${1:entity}, ${2:amount})",
+      "prefix": "healEntity",
+      "description": ""
+   },
+   "soundBuilder": {
+      "body": "soundBuilder(${1:soundType}, ${2:volume})",
+      "prefix": "soundBuilder",
+      "description": ""
+   },
+   "onRemoveAITask": {
+      "body": [
+         "onRemoveAITask(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onRemoveAITask",
+      "description": ""
+   },
+   "setSoundPitch": {
+      "body": "setSoundPitch(${1:builder}, ${2:pitch})",
+      "prefix": "setSoundPitch",
+      "description": ""
+   },
+   "onRemoveChangeEntityPotionEffect": {
+      "body": [
+         "onRemoveChangeEntityPotionEffect(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onRemoveChangeEntityPotionEffect",
+      "description": ""
+   },
+   "onRegisterChannelRegistration": {
+      "body": [
+         "onRegisterChannelRegistration(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onRegisterChannelRegistration",
+      "description": ""
+   },
+   "onRegisterGameRegistry": {
+      "body": [
+         "onRegisterGameRegistry(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onRegisterGameRegistry",
+      "description": ""
+   },
+   "style": {
+      "body": "style(${1:textStyleId})",
+      "prefix": "style",
+      "description": ""
+   },
+   "onCommandTabComplete": {
+      "body": [
+         "onCommandTabComplete(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCommandTabComplete",
+      "description": ""
+   },
+   "onTargetPlayerChangeLevel": {
+      "body": [
+         "onTargetPlayerChangeLevel(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetPlayerChangeLevel",
+      "description": ""
+   },
+   "onPickupPreChangeInventory": {
+      "body": [
+         "onPickupPreChangeInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPickupPreChangeInventory",
+      "description": ""
+   },
+   "onTargetInventory": {
+      "body": [
+         "onTargetInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetInventory",
+      "description": ""
+   },
+   "onChatMessageChannel": {
+      "body": [
+         "onChatMessageChannel(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChatMessageChannel",
+      "description": ""
+   },
+   "getEntityUUID": {
+      "body": "getEntityUUID(${1:entity})",
+      "prefix": "getEntityUUID",
+      "description": ""
+   },
+   "setDamageMagical": {
+      "body": "setDamageMagical(${1:builder})",
+      "prefix": "setDamageMagical",
+      "description": ""
+   },
+   "onPrimaryMainHandInteractBlock": {
+      "body": [
+         "onPrimaryMainHandInteractBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrimaryMainHandInteractBlock",
+      "description": ""
+   },
+   "onTargetItemExpireEntity": {
+      "body": [
+         "onTargetItemExpireEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetItemExpireEntity",
+      "description": ""
+   },
+   "onNumberPressClickInventory": {
+      "body": [
+         "onNumberPressClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onNumberPressClickInventory",
+      "description": ""
+   },
+   "onPickupChangeInventory": {
+      "body": [
+         "onPickupChangeInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPickupChangeInventory",
+      "description": ""
+   },
+   "onStartUseItemStack": {
+      "body": [
+         "onStartUseItemStack(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onStartUseItemStack",
+      "description": ""
+   },
+   "onPostPopulateChunk": {
+      "body": [
+         "onPostPopulateChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPostPopulateChunk",
+      "description": ""
+   },
+   "onResourcePackStatus": {
+      "body": [
+         "onResourcePackStatus(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onResourcePackStatus",
+      "description": ""
+   },
+   "setEntityName": {
+      "body": "setEntityName(${1:entity}, ${2:name})",
+      "prefix": "setEntityName",
+      "description": ""
+   },
+   "onSendCommand": {
+      "body": [
+         "onSendCommand(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSendCommand",
+      "description": ""
+   },
+   "onAnimateHand": {
+      "body": [
+         "onAnimateHand(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onAnimateHand",
+      "description": ""
+   },
+   "onFishing": {
+      "body": [
+         "onFishing(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onFishing",
+      "description": ""
+   },
+   "onUnleashEntity": {
+      "body": [
+         "onUnleashEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onUnleashEntity",
+      "description": ""
+   },
+   "setEntityOffHand": {
+      "body": "setEntityOffHand(${1:entity}, ${2:item})",
+      "prefix": "setEntityOffHand",
+      "description": ""
+   },
+   "onTargetAgent": {
+      "body": [
+         "onTargetAgent(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetAgent",
+      "description": ""
+   },
+   "onPrimaryMainHandInteractEntity": {
+      "body": [
+         "onPrimaryMainHandInteractEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrimaryMainHandInteractEntity",
+      "description": ""
+   },
+   "onTargetHumanoidChangeEntityEquipment": {
+      "body": [
+         "onTargetHumanoidChangeEntityEquipment(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetHumanoidChangeEntityEquipment",
+      "description": ""
+   },
+   "onGenerateLayoutAdvancementTree": {
+      "body": [
+         "onGenerateLayoutAdvancementTree(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGenerateLayoutAdvancementTree",
+      "description": ""
+   },
+   "onConsumeFuelSmelt": {
+      "body": [
+         "onConsumeFuelSmelt(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onConsumeFuelSmelt",
+      "description": ""
+   },
+   "onMountRideEntity": {
+      "body": [
+         "onMountRideEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onMountRideEntity",
+      "description": ""
+   },
+   "onEconomyTransaction": {
+      "body": [
+         "onEconomyTransaction(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onEconomyTransaction",
+      "description": ""
+   },
+   "setParticleNote": {
+      "body": "setParticleNote(${1:builder}, ${2:note})",
+      "prefix": "setParticleNote",
+      "description": ""
+   },
+   "blockOf": {
+      "body": "blockOf(${1:blockTypeId})",
+      "prefix": "blockOf",
+      "description": ""
+   },
+   "onPrimaryInteractBlock": {
+      "body": [
+         "onPrimaryInteractBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrimaryInteractBlock",
+      "description": ""
+   },
+   "setParticleDirection": {
+      "body": "setParticleDirection(${1:builder}, ${2:direction})",
+      "prefix": "setParticleDirection",
+      "description": ""
+   },
+   "onLightning": {
+      "body": [
+         "onLightning(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onLightning",
+      "description": ""
+   },
+   "setEntityMaxHealth": {
+      "body": "setEntityMaxHealth(${1:entity}, ${2:maxHealth})",
+      "prefix": "setEntityMaxHealth",
+      "description": ""
+   },
+   "setParticleColor": {
+      "body": "setParticleColor(${1:builder}, ${2:color})",
+      "prefix": "setParticleColor",
+      "description": ""
+   },
+   "onSetAITarget": {
+      "body": [
+         "onSetAITarget(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSetAITarget",
+      "description": ""
+   },
+   "onCriterion": {
+      "body": [
+         "onCriterion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCriterion",
+      "description": ""
+   },
+   "onUnloadChunk": {
+      "body": [
+         "onUnloadChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onUnloadChunk",
+      "description": ""
+   },
+   "onSecondaryInteractBlock": {
+      "body": [
+         "onSecondaryInteractBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSecondaryInteractBlock",
+      "description": ""
+   },
+   "buildParticleEffect": {
+      "body": "buildParticleEffect(${1:builder})",
+      "prefix": "buildParticleEffect",
+      "description": ""
+   },
+   "onSecondaryOffHandInteractBlock": {
+      "body": [
+         "onSecondaryOffHandInteractBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSecondaryOffHandInteractBlock",
+      "description": ""
+   },
+   "onPopulatePopulateChunk": {
+      "body": [
+         "onPopulatePopulateChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPopulatePopulateChunk",
+      "description": ""
+   },
+   "onBasicQueryServer": {
+      "body": [
+         "onBasicQueryServer(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onBasicQueryServer",
+      "description": ""
+   },
+   "onReplaceUseItemStack": {
+      "body": [
+         "onReplaceUseItemStack(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onReplaceUseItemStack",
+      "description": ""
+   },
+   "onTabComplete": {
+      "body": [
+         "onTabComplete(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTabComplete",
+      "description": ""
+   },
+   "locationOf": {
+      "body": "locationOf(${1:world}, ${2:x}, ${3:y}, ${4:z})",
+      "prefix": "locationOf",
+      "description": ""
+   },
+   "onAttackEntity": {
+      "body": [
+         "onAttackEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onAttackEntity",
+      "description": ""
+   },
+   "getEntityLeggings": {
+      "body": "getEntityLeggings(${1:entity})",
+      "prefix": "getEntityLeggings",
+      "description": ""
+   },
+   "onDoubleClickInventory": {
+      "body": [
+         "onDoubleClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDoubleClickInventory",
+      "description": ""
+   },
+   "setTaskExecutable": {
+      "body": "setTaskExecutable(${1:builder}, ${2:runnable})",
+      "prefix": "setTaskExecutable",
+      "description": ""
+   },
+   "onTickSmelt": {
+      "body": [
+         "onTickSmelt(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTickSmelt",
+      "description": ""
+   },
+   "onTargetLivingChangeEntityEquipment": {
+      "body": [
+         "onTargetLivingChangeEntityEquipment(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetLivingChangeEntityEquipment",
+      "description": ""
+   },
+   "onGameStartedServer": {
+      "body": [
+         "onGameStartedServer(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGameStartedServer",
+      "description": ""
+   },
+   "onPostSaveWorld": {
+      "body": [
+         "onPostSaveWorld(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPostSaveWorld",
+      "description": ""
+   },
+   "onMiddleClickInventory": {
+      "body": [
+         "onMiddleClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onMiddleClickInventory",
+      "description": ""
+   },
+   "getItemStackEnchants": {
+      "body": "getItemStackEnchants(${1:itemStack})",
+      "prefix": "getItemStackEnchants",
+      "description": ""
+   },
+   "onTickBlock": {
+      "body": [
+         "onTickBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTickBlock",
+      "description": ""
+   },
+   "onLoadWorld": {
+      "body": [
+         "onLoadWorld(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onLoadWorld",
+      "description": ""
+   },
+   "onPrimaryClickInventory": {
+      "body": [
+         "onPrimaryClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrimaryClickInventory",
+      "description": ""
+   },
+   "getEntityMainHand": {
+      "body": "getEntityMainHand(${1:entity})",
+      "prefix": "getEntityMainHand",
+      "description": ""
+   },
+   "onTargetPlayerBanUser": {
+      "body": [
+         "onTargetPlayerBanUser(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetPlayerBanUser",
+      "description": ""
+   },
+   "onTargetUser": {
+      "body": [
+         "onTargetUser(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetUser",
+      "description": ""
+   },
+   "onStopFishing": {
+      "body": [
+         "onStopFishing(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onStopFishing",
+      "description": ""
+   },
+   "setTaskInterval": {
+      "body": "setTaskInterval(${1:builder}, ${2:ticks})",
+      "prefix": "setTaskInterval",
+      "description": ""
+   },
+   "onUnloadWorld": {
+      "body": [
+         "onUnloadWorld(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onUnloadWorld",
+      "description": ""
+   },
+   "onAffectEntity": {
+      "body": [
+         "onAffectEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onAffectEntity",
+      "description": ""
+   },
+   "createItemStack": {
+      "body": "createItemStack(${1:itemTypeId}, ${2:amount})",
+      "prefix": "createItemStack",
+      "description": ""
+   },
+   "onStartSmelt": {
+      "body": [
+         "onStartSmelt(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onStartSmelt",
+      "description": ""
+   },
+   "onPreExplosion": {
+      "body": [
+         "onPreExplosion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPreExplosion",
+      "description": ""
+   },
+   "getBlockFromLocation": {
+      "body": "getBlockFromLocation(${1:worldLocation})",
+      "prefix": "getBlockFromLocation",
+      "description": ""
+   },
+   "setDamageExhaustion": {
+      "body": "setDamageExhaustion(${1:damageSourceBuilder}, ${2:exhaustion})",
+      "prefix": "setDamageExhaustion",
+      "description": ""
+   },
+   "onFinishSmelt": {
+      "body": [
+         "onFinishSmelt(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onFinishSmelt",
+      "description": ""
+   },
+   "onFullQueryServer": {
+      "body": [
+         "onFullQueryServer(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onFullQueryServer",
+      "description": ""
+   },
+   "onSecondaryInteractItem": {
+      "body": [
+         "onSecondaryInteractItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSecondaryInteractItem",
+      "description": ""
+   },
+   "onChannelRegistration": {
+      "body": [
+         "onChannelRegistration(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChannelRegistration",
+      "description": ""
+   },
+   "onForcedChunk": {
+      "body": [
+         "onForcedChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onForcedChunk",
+      "description": ""
+   },
+   "onGainChangeEntityPotionEffect": {
+      "body": [
+         "onGainChangeEntityPotionEffect(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGainChangeEntityPotionEffect",
+      "description": ""
+   },
+   "onStopUseItemStack": {
+      "body": [
+         "onStopUseItemStack(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onStopUseItemStack",
+      "description": ""
+   },
+   "onDestructDropItem": {
+      "body": [
+         "onDestructDropItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDestructDropItem",
+      "description": ""
+   },
+   "onDropSingleClickInventory": {
+      "body": [
+         "onDropSingleClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDropSingleClickInventory",
+      "description": ""
+   },
+   "onScriptStop": {
+      "body": [
+         "onScriptStop(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onScriptStop",
+      "description": ""
+   },
+   "dropItemStackOnGround": {
+      "body": "dropItemStackOnGround(${1:itemStack}, ${2:location})",
+      "prefix": "dropItemStackOnGround",
+      "description": ""
+   },
+   "onBrewing": {
+      "body": [
+         "onBrewing(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onBrewing",
+      "description": ""
+   },
+   "onPreChunkPreGeneration": {
+      "body": [
+         "onPreChunkPreGeneration(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPreChunkPreGeneration",
+      "description": ""
+   },
+   "onHarvestEntity": {
+      "body": [
+         "onHarvestEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onHarvestEntity",
+      "description": ""
+   },
+   "onEntityDamage": {
+      "body": [
+         "onEntityDamage(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onEntityDamage",
+      "description": ""
+   },
+   "setDamageCreative": {
+      "body": "setDamageCreative(${1:damageSourceBuilder})",
+      "prefix": "setDamageCreative",
+      "description": ""
+   },
+   "setParticleSlowHorizontal": {
+      "body": "setParticleSlowHorizontal(${1:builder}, ${2:slow})",
+      "prefix": "setParticleSlowHorizontal",
+      "description": ""
+   },
+   "onRconConnection": {
+      "body": [
+         "onRconConnection(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onRconConnection",
+      "description": ""
+   },
+   "onTargetPlayerHarvestEntity": {
+      "body": [
+         "onTargetPlayerHarvestEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetPlayerHarvestEntity",
+      "description": ""
+   },
+   "onInteractItem": {
+      "body": [
+         "onInteractItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onInteractItem",
+      "description": ""
+   },
+   "onPrimaryInteractItem": {
+      "body": [
+         "onPrimaryInteractItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrimaryInteractItem",
+      "description": ""
+   },
+   "getItemStackDisplayName": {
+      "body": "getItemStackDisplayName(${1:itemStack})",
+      "prefix": "getItemStackDisplayName",
+      "description": ""
+   },
+   "setParticleType": {
+      "body": "setParticleType(${1:builder}, ${2:typeId})",
+      "prefix": "setParticleType",
+      "description": ""
+   },
+   "onExplosion": {
+      "body": [
+         "onExplosion(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onExplosion",
+      "description": ""
+   },
+   "onAuthClientConnection": {
+      "body": [
+         "onAuthClientConnection(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onAuthClientConnection",
+      "description": ""
+   },
+   "onPostGenerateChunk": {
+      "body": [
+         "onPostGenerateChunk(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPostGenerateChunk",
+      "description": ""
+   },
+   "playSound": {
+      "body": "playSound(${1:viewer}, ${2:sound}, ${3:position})",
+      "prefix": "playSound",
+      "description": ""
+   },
+   "onInterruptBrewing": {
+      "body": [
+         "onInterruptBrewing(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onInterruptBrewing",
+      "description": ""
+   },
+   "onInteractBlock": {
+      "body": [
+         "onInteractBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onInteractBlock",
+      "description": ""
+   },
+   "onPreConstructEntity": {
+      "body": [
+         "onPreConstructEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPreConstructEntity",
+      "description": ""
+   },
+   "onGameStoppingServer": {
+      "body": [
+         "onGameStoppingServer(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGameStoppingServer",
+      "description": ""
+   },
+   "onOpenInteractInventory": {
+      "body": [
+         "onOpenInteractInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onOpenInteractInventory",
+      "description": ""
+   },
+   "onSetCooldown": {
+      "body": [
+         "onSetCooldown(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSetCooldown",
+      "description": ""
+   },
+   "onSaveWorld": {
+      "body": [
+         "onSaveWorld(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSaveWorld",
+      "description": ""
+   },
+   "onChangeInventory": {
+      "body": [
+         "onChangeInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChangeInventory",
+      "description": ""
+   },
+   "onClickInventory": {
+      "body": [
+         "onClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onClickInventory",
+      "description": ""
+   },
+   "onTargetPlayerChangeWorldBorder": {
+      "body": [
+         "onTargetPlayerChangeWorldBorder(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetPlayerChangeWorldBorder",
+      "description": ""
+   },
+   "onDetonateExplosive": {
+      "body": [
+         "onDetonateExplosive(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDetonateExplosive",
+      "description": ""
+   },
+   "onTargetPlayerChangeEntityEquipment": {
+      "body": [
+         "onTargetPlayerChangeEntityEquipment(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetPlayerChangeEntityEquipment",
+      "description": ""
+   },
+   "onStartBrewing": {
+      "body": [
+         "onStartBrewing(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onStartBrewing",
+      "description": ""
+   },
+   "error": {
+      "body": "error(${1:msg})",
+      "prefix": "error",
+      "description": ""
+   },
+   "onCreativeClickInventory": {
+      "body": [
+         "onCreativeClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCreativeClickInventory",
+      "description": ""
+   },
+   "onDisconnectRconConnection": {
+      "body": [
+         "onDisconnectRconConnection(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDisconnectRconConnection",
+      "description": ""
+   },
+   "onUseItemStack": {
+      "body": [
+         "onUseItemStack(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onUseItemStack",
+      "description": ""
+   },
+   "onHandInteract": {
+      "body": [
+         "onHandInteract(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onHandInteract",
+      "description": ""
+   },
+   "onGameState": {
+      "body": [
+         "onGameState(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGameState",
+      "description": ""
+   },
+   "onPardonIp": {
+      "body": [
+         "onPardonIp(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPardonIp",
+      "description": ""
+   },
+   "onChatTabComplete": {
+      "body": [
+         "onChatTabComplete(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChatTabComplete",
+      "description": ""
+   },
+   "onCollideBlock": {
+      "body": [
+         "onCollideBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCollideBlock",
+      "description": ""
+   },
+   "setEntityHelmet": {
+      "body": "setEntityHelmet(${1:entity}, ${2:helmet})",
+      "prefix": "setEntityHelmet",
+      "description": ""
+   },
+   "onChunkLoadSpawnEntity": {
+      "body": [
+         "onChunkLoadSpawnEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChunkLoadSpawnEntity",
+      "description": ""
+   },
+   "onDragClickInventory": {
+      "body": [
+         "onDragClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDragClickInventory",
+      "description": ""
+   },
+   "onPostLightning": {
+      "body": [
+         "onPostLightning(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPostLightning",
+      "description": ""
+   },
+   "onSleeping": {
+      "body": [
+         "onSleeping(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSleeping",
+      "description": ""
+   },
+   "onSecondaryOffHandInteractItem": {
+      "body": [
+         "onSecondaryOffHandInteractItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onSecondaryOffHandInteractItem",
+      "description": ""
+   },
+   "setDamageAbsolute": {
+      "body": "setDamageAbsolute(${1:builder})",
+      "prefix": "setDamageAbsolute",
+      "description": ""
+   },
+   "onPrimaryOffHandInteractItem": {
+      "body": [
+         "onPrimaryOffHandInteractItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPrimaryOffHandInteractItem",
+      "description": ""
+   },
+   "onTargetExplosive": {
+      "body": [
+         "onTargetExplosive(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetExplosive",
+      "description": ""
+   },
+   "onCollide": {
+      "body": [
+         "onCollide(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCollide",
+      "description": ""
+   },
+   "onDispenseDropItem": {
+      "body": [
+         "onDispenseDropItem(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDispenseDropItem",
+      "description": ""
+   },
+   "setSoundMinVolume": {
+      "body": "setSoundMinVolume(${1:builder}, ${2:minVolume})",
+      "prefix": "setSoundMinVolume",
+      "description": ""
+   },
+   "onCustomSpawnEntity": {
+      "body": [
+         "onCustomSpawnEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCustomSpawnEntity",
+      "description": ""
+   },
+   "setEntityMainHand": {
+      "body": "setEntityMainHand(${1:entity}, ${2:item})",
+      "prefix": "setEntityMainHand",
+      "description": ""
+   },
+   "onRandomTickBlock": {
+      "body": [
+         "onRandomTickBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onRandomTickBlock",
+      "description": ""
+   },
+   "onCompleteChunkPreGeneration": {
+      "body": [
+         "onCompleteChunkPreGeneration(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onCompleteChunkPreGeneration",
+      "description": ""
+   },
+   "onPlayerChangeClientSettings": {
+      "body": [
+         "onPlayerChangeClientSettings(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onPlayerChangeClientSettings",
+      "description": ""
+   },
+   "onTargetWorldChangeWorldBorder": {
+      "body": [
+         "onTargetWorldChangeWorldBorder(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetWorldChangeWorldBorder",
+      "description": ""
+   },
+   "listOf": {
+      "body": "listOf(${1:array})",
+      "prefix": "listOf",
+      "description": ""
+   },
+   "onGameLoadComplete": {
+      "body": [
+         "onGameLoadComplete(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGameLoadComplete",
+      "description": ""
+   },
+   "onTeleport.PortalMoveEntity": {
+      "body": [
+         "onTeleport.PortalMoveEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTeleport.PortalMoveEntity",
+      "description": ""
+   },
+   "createEntity": {
+      "body": "createEntity(${1:entityType}, ${2:worldLocation})",
+      "prefix": "createEntity",
+      "description": ""
+   },
+   "onGrowChangeBlock": {
+      "body": [
+         "onGrowChangeBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onGrowChangeBlock",
+      "description": ""
+   },
+   "onChangeWorldBorder": {
+      "body": [
+         "onChangeWorldBorder(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onChangeWorldBorder",
+      "description": ""
+   },
+   "randomUUID": {
+      "body": "randomUUID()",
+      "prefix": "randomUUID",
+      "description": ""
+   },
+   "onFindMateBreedEntity": {
+      "body": [
+         "onFindMateBreedEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onFindMateBreedEntity",
+      "description": ""
+   },
+   "buildTask": {
+      "body": "buildTask(${1:name})",
+      "prefix": "buildTask",
+      "description": ""
+   },
+   "entityDamageBuilder": {
+      "body": "entityDamageBuilder()",
+      "prefix": "entityDamageBuilder",
+      "description": ""
+   },
+   "onTargetBlock": {
+      "body": [
+         "onTargetBlock(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetBlock",
+      "description": ""
+   },
+   "damageEntity": {
+      "body": "damageEntity(${1:entity}, ${2:src}, ${3:damage})",
+      "prefix": "damageEntity",
+      "description": ""
+   },
+   "onEntityMove": {
+      "body": [
+         "onEntityMove(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onEntityMove",
+      "description": ""
+   },
+   "onConnectRconConnection": {
+      "body": [
+         "onConnectRconConnection(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onConnectRconConnection",
+      "description": ""
+   },
+   "onAffectSlot": {
+      "body": [
+         "onAffectSlot(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onAffectSlot",
+      "description": ""
+   },
+   "onInterruptSmelt": {
+      "body": [
+         "onInterruptSmelt(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onInterruptSmelt",
+      "description": ""
+   },
+   "teleportPlayer": {
+      "body": "teleportPlayer(${1:player}, ${2:location})",
+      "prefix": "teleportPlayer",
+      "description": ""
+   },
+   "onLeashEntity": {
+      "body": [
+         "onLeashEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onLeashEntity",
+      "description": ""
+   },
+   "setDamageScale": {
+      "body": "setDamageScale(${1:damageSourceBuilder})",
+      "prefix": "setDamageScale",
+      "description": ""
+   },
+   "debug": {
+      "body": "debug(${1:msg})",
+      "prefix": "debug",
+      "description": ""
+   },
+   "onDropOutsideSecondaryClickInventory": {
+      "body": [
+         "onDropOutsideSecondaryClickInventory(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onDropOutsideSecondaryClickInventory",
+      "description": ""
+   },
+   "setBlockAtLocation": {
+      "body": "setBlockAtLocation(${1:worldLocation}, ${2:state})",
+      "prefix": "setBlockAtLocation",
+      "description": ""
+   },
+   "setEntityPotionEffects": {
+      "body": "setEntityPotionEffects(${1:entity}, ${2:effects})",
+      "prefix": "setEntityPotionEffects",
+      "description": ""
+   },
+   "getPlayerUUID": {
+      "body": "getPlayerUUID(${1:player})",
+      "prefix": "getPlayerUUID",
+      "description": ""
+   },
+   "onTargetLivingHarvestEntity": {
+      "body": [
+         "onTargetLivingHarvestEntity(function(event) {",
+         "    $0",
+         "})"
+      ],
+      "prefix": "onTargetLivingHarvestEntity",
+      "description": ""
    }
 }
