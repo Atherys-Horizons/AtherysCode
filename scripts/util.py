@@ -4,17 +4,10 @@ prefixForm = 'prefix: {prefix}'
 paramForm = '${{{index}:{name}}}'
 bodyForm = '{name}({params})'
 
-def snippets(jsFunctions):
-    return
-
-def docs(jsFunctions, old=None):
-    return
-
 def getModules(jsFunctions):
     modules = set()
     for name, method in jsFunctions.items():
         modules.add(method['module'])
-        print(method['module'])
     return modules
 
 def toJson(name, parameters):
@@ -32,7 +25,6 @@ def normalToJson(name, parameters):
             if index < len(parameters):
                 params += ', '
             index += 1
-
     function = {
         'prefix': name,
         'body': bodyForm.format(name=name, params=params),
@@ -56,6 +48,7 @@ def getJavaFile(line):
 def getMethod(javaContents, path):
     methodSig = re.search('^[^/].*p.*( apply| get| accept| test).*$', javaContents, re.MULTILINE).group(0)
     parameters = methodSig[methodSig.find("(")+1:methodSig.find(")")]
+    print(parameters)
     path = path.replace('\\', '/')
     method = {
         'parameters': parameters.split(', '),
