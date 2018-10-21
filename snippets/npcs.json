@@ -1,0 +1,27 @@
+{
+   "setNPCSkin": {
+      "body": "setNPCSkin(${1:npcFile}, ${2:uuid})",
+      "prefix": "setNPCSkin",
+      "description": ""
+   },
+   "createNPC": {
+      "body": "createNPC(${1:entityTypeId}, ${2:location})",
+      "prefix": "createNPC",
+      "description": ""
+   },
+   "getNPCEntity": {
+      "body": "getNPCEntity(${1:npcFile})",
+      "prefix": "getNPCEntity",
+      "description": ""
+   },
+   "getNPCUUID": {
+      "body": "getNPCUUID(${1:npc})",
+      "prefix": "getNPCUUID",
+      "description": ""
+   },
+   "setNPCName": {
+      "body": "setNPCName(${1:npcFile}, ${2:name})",
+      "prefix": "setNPCName",
+      "description": ""
+   }
+}
