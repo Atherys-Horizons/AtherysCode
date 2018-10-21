@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import re
 import os
 import sys
@@ -58,3 +60,5 @@ for name, method in jsFunctions.items():
     snippets[name] = (util.toJson(name, method['parameters'])) 
 jsonOut.write(json.dumps(snippets, indent=3))
 jsonOut.close()
+
+print("Functions found:", len(jsFunctions))
