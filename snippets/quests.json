@@ -57,7 +57,7 @@
       "description": ""
    }, 
    "dialogNode": {
-      "body": "dialogNode()", 
+      "body": "dialogNode(${1:id})", 
       "prefix": "dialogNode", 
       "description": ""
    }, 
